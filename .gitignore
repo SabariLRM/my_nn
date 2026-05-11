@@ -16,6 +16,7 @@ dist/
 venv/
 .env/
 
-# Ignore Cython generated C files (optional, but good practice if distributing only .so)
-# We keep .so files so they ARE uploaded!
-*.c
+# Ignore compiled binaries (let users compile them)
+*.so
+*.pyd
+*.dylib

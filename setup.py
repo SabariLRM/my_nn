@@ -1,15 +1,11 @@
 from setuptools import setup, find_packages, Extension
-try:
-    from Cython.Build import cythonize
-except ImportError:
-    cythonize = None
 
 extensions = [
-    Extension("my_nn.layers", ["my_nn/layers.py"]),
-    Extension("my_nn.activations", ["my_nn/activations.py"]),
-    Extension("my_nn.losses", ["my_nn/losses.py"]),
-    Extension("my_nn.optimizers", ["my_nn/optimizers.py"]),
-    Extension("my_nn.network", ["my_nn/network.py"]),
+    Extension("my_nn.layers", ["my_nn/layers.c"]),
+    Extension("my_nn.activations", ["my_nn/activations.c"]),
+    Extension("my_nn.losses", ["my_nn/losses.c"]),
+    Extension("my_nn.optimizers", ["my_nn/optimizers.c"]),
+    Extension("my_nn.network", ["my_nn/network.c"]),
 ]
 
 setup_kwargs = dict(
@@ -31,9 +27,7 @@ setup_kwargs = dict(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    ext_modules=extensions,
 )
-
-if cythonize is not None:
-    setup_kwargs["ext_modules"] = cythonize(extensions, compiler_directives={'language_level': "3"})
 
 setup(**setup_kwargs)
