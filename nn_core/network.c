@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "my_nn.network",
+        "name": "nn_core.network",
         "sources": [
-            "/Users/user45/Documents/nnFromSratch/my_nn/network.py"
+            "/Users/user45/Documents/nnFromSratch/nn_core/network.py"
         ]
     },
-    "module_name": "my_nn.network"
+    "module_name": "nn_core.network"
 }
 END: Cython Metadata */
 
@@ -1126,8 +1126,8 @@ static int __Pyx_init_co_variables(void) {
   #endif
 #endif
 
-#define __PYX_HAVE__my_nn__network
-#define __PYX_HAVE_API__my_nn__network
+#define __PYX_HAVE__nn_core__network
+#define __PYX_HAVE_API__nn_core__network
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -1345,7 +1345,7 @@ static const char *__pyx_filename;
 /* #### Code section: filename_table ### */
 
 static const char* const __pyx_f[] = {
-  "my_nn/network.py",
+  "nn_core/network.py",
 };
 /* #### Code section: utility_code_proto_before_types ### */
 /* Atomics.proto (used by UnpackUnboundCMethod) */
@@ -2422,26 +2422,26 @@ static int __Pyx_State_RemoveModule(void*);
 #define __PYX_TYPE_MODULE_PREFIX __PYX_ABI_MODULE_NAME "."
 
 
-/* Module declarations from "my_nn.network" */
+/* Module declarations from "nn_core.network" */
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "my_nn.network"
-extern int __pyx_module_is_main_my_nn__network;
-int __pyx_module_is_main_my_nn__network = 0;
+#define __Pyx_MODULE_NAME "nn_core.network"
+extern int __pyx_module_is_main_nn_core__network;
+int __pyx_module_is_main_nn_core__network = 0;
 
-/* Implementation of "my_nn.network" */
+/* Implementation of "nn_core.network" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_zip;
 static PyObject *__pyx_builtin_reversed;
 static PyObject *__pyx_builtin_print;
 /* #### Code section: string_decls ### */
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_2add(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_layer); /* proto */
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_4use(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_loss, PyObject *__pyx_v_loss_prime); /* proto */
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_input_data); /* proto */
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_input_data); /* proto */
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x_train, PyObject *__pyx_v_y_train, PyObject *__pyx_v_epochs, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_verbose); /* proto */
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_2add(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_layer); /* proto */
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_4use(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_loss, PyObject *__pyx_v_loss_prime); /* proto */
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_6predict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_input_data); /* proto */
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_8predict_batch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_input_data); /* proto */
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_10fit(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x_train, PyObject *__pyx_v_y_train, PyObject *__pyx_v_epochs, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_verbose); /* proto */
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 /* SmallCodeConfig */
@@ -2514,7 +2514,7 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_kp_u__3 __pyx_string_tab[2]
 #define __pyx_kp_u_epoch __pyx_string_tab[3]
 #define __pyx_kp_u_error __pyx_string_tab[4]
-#define __pyx_kp_u_my_nn_network_py __pyx_string_tab[5]
+#define __pyx_kp_u_nn_core_network_py __pyx_string_tab[5]
 #define __pyx_n_u_Pyx_PyDict_NextRef __pyx_string_tab[6]
 #define __pyx_n_u_Sequential __pyx_string_tab[7]
 #define __pyx_n_u_Sequential___init __pyx_string_tab[8]
@@ -2558,8 +2558,8 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_n_u_main __pyx_string_tab[46]
 #define __pyx_n_u_metaclass __pyx_string_tab[47]
 #define __pyx_n_u_module __pyx_string_tab[48]
-#define __pyx_n_u_my_nn_network __pyx_string_tab[49]
-#define __pyx_n_u_name __pyx_string_tab[50]
+#define __pyx_n_u_name __pyx_string_tab[49]
+#define __pyx_n_u_nn_core_network __pyx_string_tab[50]
 #define __pyx_n_u_np __pyx_string_tab[51]
 #define __pyx_n_u_numpy __pyx_string_tab[52]
 #define __pyx_n_u_output __pyx_string_tab[53]
@@ -2653,7 +2653,7 @@ return 0;
 #endif
 /* #### Code section: module_code ### */
 
-/* "my_nn/network.py":4
+/* "nn_core/network.py":4
  * 
  * class Sequential:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -2662,15 +2662,15 @@ return 0;
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_1__init__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_5my_nn_7network_10Sequential_1__init__ = {"__init__", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_5my_nn_7network_10Sequential_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_1__init__(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_7nn_core_7network_10Sequential_1__init__ = {"__init__", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_7network_10Sequential_1__init__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_1__init__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2732,11 +2732,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("my_nn.network.Sequential.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5my_nn_7network_10Sequential___init__(__pyx_self, __pyx_v_self);
+  __pyx_r = __pyx_pf_7nn_core_7network_10Sequential___init__(__pyx_self, __pyx_v_self);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -2746,7 +2746,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2755,7 +2755,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "my_nn/network.py":5
+  /* "nn_core/network.py":5
  * class Sequential:
  *     def __init__(self):
  *         self.layers = []             # <<<<<<<<<<<<<<
@@ -2767,7 +2767,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED Py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_layers, __pyx_t_1) < (0)) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "my_nn/network.py":6
+  /* "nn_core/network.py":6
  *     def __init__(self):
  *         self.layers = []
  *         self.loss = None             # <<<<<<<<<<<<<<
@@ -2776,7 +2776,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED Py
 */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_loss, Py_None) < (0)) __PYX_ERR(0, 6, __pyx_L1_error)
 
-  /* "my_nn/network.py":7
+  /* "nn_core/network.py":7
  *         self.layers = []
  *         self.loss = None
  *         self.loss_prime = None             # <<<<<<<<<<<<<<
@@ -2785,7 +2785,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED Py
 */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_loss_prime, Py_None) < (0)) __PYX_ERR(0, 7, __pyx_L1_error)
 
-  /* "my_nn/network.py":4
+  /* "nn_core/network.py":4
  * 
  * class Sequential:
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -2798,7 +2798,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED Py
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("my_nn.network.Sequential.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2806,7 +2806,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "my_nn/network.py":9
+/* "nn_core/network.py":9
  *         self.loss_prime = None
  * 
  *     def add(self, layer):             # <<<<<<<<<<<<<<
@@ -2815,15 +2815,15 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential___init__(CYTHON_UNUSED Py
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_3add(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_3add(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_5my_nn_7network_10Sequential_3add = {"add", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_5my_nn_7network_10Sequential_3add, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_3add(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_7nn_core_7network_10Sequential_3add = {"add", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_7network_10Sequential_3add, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_3add(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2893,11 +2893,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("my_nn.network.Sequential.add", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.add", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5my_nn_7network_10Sequential_2add(__pyx_self, __pyx_v_self, __pyx_v_layer);
+  __pyx_r = __pyx_pf_7nn_core_7network_10Sequential_2add(__pyx_self, __pyx_v_self, __pyx_v_layer);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -2907,7 +2907,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_2add(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_layer) {
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_2add(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_layer) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2917,7 +2917,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_2add(CYTHON_UNUSED PyObje
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("add", 0);
 
-  /* "my_nn/network.py":10
+  /* "nn_core/network.py":10
  * 
  *     def add(self, layer):
  *         self.layers.append(layer)             # <<<<<<<<<<<<<<
@@ -2929,7 +2929,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_2add(CYTHON_UNUSED PyObje
   __pyx_t_2 = __Pyx_PyObject_Append(__pyx_t_1, __pyx_v_layer); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "my_nn/network.py":9
+  /* "nn_core/network.py":9
  *         self.loss_prime = None
  * 
  *     def add(self, layer):             # <<<<<<<<<<<<<<
@@ -2942,7 +2942,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_2add(CYTHON_UNUSED PyObje
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("my_nn.network.Sequential.add", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.add", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2950,7 +2950,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_2add(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "my_nn/network.py":12
+/* "nn_core/network.py":12
  *         self.layers.append(layer)
  * 
  *     def use(self, loss, loss_prime):             # <<<<<<<<<<<<<<
@@ -2959,15 +2959,15 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_2add(CYTHON_UNUSED PyObje
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_5use(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_5use(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_5my_nn_7network_10Sequential_5use = {"use", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_5my_nn_7network_10Sequential_5use, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_5use(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_7nn_core_7network_10Sequential_5use = {"use", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_7network_10Sequential_5use, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_5use(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3045,11 +3045,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("my_nn.network.Sequential.use", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.use", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5my_nn_7network_10Sequential_4use(__pyx_self, __pyx_v_self, __pyx_v_loss, __pyx_v_loss_prime);
+  __pyx_r = __pyx_pf_7nn_core_7network_10Sequential_4use(__pyx_self, __pyx_v_self, __pyx_v_loss, __pyx_v_loss_prime);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -3059,7 +3059,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_4use(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_loss, PyObject *__pyx_v_loss_prime) {
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_4use(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_loss, PyObject *__pyx_v_loss_prime) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -3067,7 +3067,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_4use(CYTHON_UNUSED PyObje
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("use", 0);
 
-  /* "my_nn/network.py":13
+  /* "nn_core/network.py":13
  * 
  *     def use(self, loss, loss_prime):
  *         self.loss = loss             # <<<<<<<<<<<<<<
@@ -3076,7 +3076,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_4use(CYTHON_UNUSED PyObje
 */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_loss, __pyx_v_loss) < (0)) __PYX_ERR(0, 13, __pyx_L1_error)
 
-  /* "my_nn/network.py":14
+  /* "nn_core/network.py":14
  *     def use(self, loss, loss_prime):
  *         self.loss = loss
  *         self.loss_prime = loss_prime             # <<<<<<<<<<<<<<
@@ -3085,7 +3085,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_4use(CYTHON_UNUSED PyObje
 */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_loss_prime, __pyx_v_loss_prime) < (0)) __PYX_ERR(0, 14, __pyx_L1_error)
 
-  /* "my_nn/network.py":12
+  /* "nn_core/network.py":12
  *         self.layers.append(layer)
  * 
  *     def use(self, loss, loss_prime):             # <<<<<<<<<<<<<<
@@ -3097,7 +3097,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_4use(CYTHON_UNUSED PyObje
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("my_nn.network.Sequential.use", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.use", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3105,7 +3105,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_4use(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "my_nn/network.py":16
+/* "nn_core/network.py":16
  *         self.loss_prime = loss_prime
  * 
  *     def predict(self, input_data):             # <<<<<<<<<<<<<<
@@ -3114,15 +3114,15 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_4use(CYTHON_UNUSED PyObje
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_7predict(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_7predict(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_5my_nn_7network_10Sequential_7predict = {"predict", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_5my_nn_7network_10Sequential_7predict, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_7predict(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_7nn_core_7network_10Sequential_7predict = {"predict", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_7network_10Sequential_7predict, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_7predict(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3192,11 +3192,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("my_nn.network.Sequential.predict", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.predict", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5my_nn_7network_10Sequential_6predict(__pyx_self, __pyx_v_self, __pyx_v_input_data);
+  __pyx_r = __pyx_pf_7nn_core_7network_10Sequential_6predict(__pyx_self, __pyx_v_self, __pyx_v_input_data);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -3206,7 +3206,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_input_data) {
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_6predict(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_input_data) {
   Py_ssize_t __pyx_v_samples;
   PyObject *__pyx_v_result = NULL;
   PyObject *__pyx_v_i = NULL;
@@ -3228,7 +3228,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("predict", 0);
 
-  /* "my_nn/network.py":17
+  /* "nn_core/network.py":17
  * 
  *     def predict(self, input_data):
  *         samples = len(input_data)             # <<<<<<<<<<<<<<
@@ -3238,7 +3238,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
   __pyx_t_1 = PyObject_Length(__pyx_v_input_data); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 17, __pyx_L1_error)
   __pyx_v_samples = __pyx_t_1;
 
-  /* "my_nn/network.py":18
+  /* "nn_core/network.py":18
  *     def predict(self, input_data):
  *         samples = len(input_data)
  *         result = []             # <<<<<<<<<<<<<<
@@ -3250,7 +3250,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
   __pyx_v_result = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "my_nn/network.py":20
+  /* "nn_core/network.py":20
  *         result = []
  * 
  *         for i in range(samples):             # <<<<<<<<<<<<<<
@@ -3289,7 +3289,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "my_nn/network.py":22
+    /* "nn_core/network.py":22
  *         for i in range(samples):
  *             # forward pass
  *             output = input_data[i:i+1] # keep dims (1, n)             # <<<<<<<<<<<<<<
@@ -3304,7 +3304,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
     __Pyx_XDECREF_SET(__pyx_v_output, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":23
+    /* "nn_core/network.py":23
  *             # forward pass
  *             output = input_data[i:i+1] # keep dims (1, n)
  *             for layer in self.layers:             # <<<<<<<<<<<<<<
@@ -3366,7 +3366,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
       __Pyx_XDECREF_SET(__pyx_v_layer, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "my_nn/network.py":24
+      /* "nn_core/network.py":24
  *             output = input_data[i:i+1] # keep dims (1, n)
  *             for layer in self.layers:
  *                 output = layer.forward(output)             # <<<<<<<<<<<<<<
@@ -3386,7 +3386,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
       __Pyx_DECREF_SET(__pyx_v_output, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "my_nn/network.py":23
+      /* "nn_core/network.py":23
  *             # forward pass
  *             output = input_data[i:i+1] # keep dims (1, n)
  *             for layer in self.layers:             # <<<<<<<<<<<<<<
@@ -3396,7 +3396,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "my_nn/network.py":25
+    /* "nn_core/network.py":25
  *             for layer in self.layers:
  *                 output = layer.forward(output)
  *             result.append(output)             # <<<<<<<<<<<<<<
@@ -3405,7 +3405,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
 */
     __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_v_output); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 25, __pyx_L1_error)
 
-    /* "my_nn/network.py":20
+    /* "nn_core/network.py":20
  *         result = []
  * 
  *         for i in range(samples):             # <<<<<<<<<<<<<<
@@ -3415,7 +3415,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
   }
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "my_nn/network.py":27
+  /* "nn_core/network.py":27
  *             result.append(output)
  * 
  *         return result             # <<<<<<<<<<<<<<
@@ -3427,7 +3427,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
   __pyx_r = __pyx_v_result;
   goto __pyx_L0;
 
-  /* "my_nn/network.py":16
+  /* "nn_core/network.py":16
  *         self.loss_prime = loss_prime
  * 
  *     def predict(self, input_data):             # <<<<<<<<<<<<<<
@@ -3441,7 +3441,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("my_nn.network.Sequential.predict", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.predict", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_result);
@@ -3453,7 +3453,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "my_nn/network.py":29
+/* "nn_core/network.py":29
  *         return result
  * 
  *     def predict_batch(self, input_data):             # <<<<<<<<<<<<<<
@@ -3462,15 +3462,15 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_6predict(CYTHON_UNUSED Py
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_9predict_batch(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_9predict_batch(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_5my_nn_7network_10Sequential_9predict_batch = {"predict_batch", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_5my_nn_7network_10Sequential_9predict_batch, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_9predict_batch(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_7nn_core_7network_10Sequential_9predict_batch = {"predict_batch", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_7network_10Sequential_9predict_batch, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_9predict_batch(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3540,11 +3540,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("my_nn.network.Sequential.predict_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.predict_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5my_nn_7network_10Sequential_8predict_batch(__pyx_self, __pyx_v_self, __pyx_v_input_data);
+  __pyx_r = __pyx_pf_7nn_core_7network_10Sequential_8predict_batch(__pyx_self, __pyx_v_self, __pyx_v_input_data);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -3554,7 +3554,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_input_data) {
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_8predict_batch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_input_data) {
   PyObject *__pyx_v_output = NULL;
   PyObject *__pyx_v_layer = NULL;
   PyObject *__pyx_r = NULL;
@@ -3570,7 +3570,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("predict_batch", 0);
 
-  /* "my_nn/network.py":30
+  /* "nn_core/network.py":30
  * 
  *     def predict_batch(self, input_data):
  *         output = input_data             # <<<<<<<<<<<<<<
@@ -3580,7 +3580,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
   __Pyx_INCREF(__pyx_v_input_data);
   __pyx_v_output = __pyx_v_input_data;
 
-  /* "my_nn/network.py":31
+  /* "nn_core/network.py":31
  *     def predict_batch(self, input_data):
  *         output = input_data
  *         for layer in self.layers:             # <<<<<<<<<<<<<<
@@ -3642,7 +3642,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
     __Pyx_XDECREF_SET(__pyx_v_layer, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "my_nn/network.py":32
+    /* "nn_core/network.py":32
  *         output = input_data
  *         for layer in self.layers:
  *             output = layer.forward(output)             # <<<<<<<<<<<<<<
@@ -3662,7 +3662,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
     __Pyx_DECREF_SET(__pyx_v_output, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "my_nn/network.py":31
+    /* "nn_core/network.py":31
  *     def predict_batch(self, input_data):
  *         output = input_data
  *         for layer in self.layers:             # <<<<<<<<<<<<<<
@@ -3672,7 +3672,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "my_nn/network.py":33
+  /* "nn_core/network.py":33
  *         for layer in self.layers:
  *             output = layer.forward(output)
  *         return output             # <<<<<<<<<<<<<<
@@ -3684,7 +3684,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
   __pyx_r = __pyx_v_output;
   goto __pyx_L0;
 
-  /* "my_nn/network.py":29
+  /* "nn_core/network.py":29
  *         return result
  * 
  *     def predict_batch(self, input_data):             # <<<<<<<<<<<<<<
@@ -3697,7 +3697,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("my_nn.network.Sequential.predict_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.predict_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_output);
@@ -3707,7 +3707,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
   return __pyx_r;
 }
 
-/* "my_nn/network.py":35
+/* "nn_core/network.py":35
  *         return output
  * 
  *     def fit(self, x_train, y_train, epochs, learning_rate, batch_size=None, verbose=True):             # <<<<<<<<<<<<<<
@@ -3716,15 +3716,15 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_8predict_batch(CYTHON_UNU
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_11fit(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_11fit(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_5my_nn_7network_10Sequential_11fit = {"fit", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_5my_nn_7network_10Sequential_11fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5my_nn_7network_10Sequential_11fit(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_7nn_core_7network_10Sequential_11fit = {"fit", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_7network_10Sequential_11fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_7nn_core_7network_10Sequential_11fit(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3845,11 +3845,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("my_nn.network.Sequential.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5my_nn_7network_10Sequential_10fit(__pyx_self, __pyx_v_self, __pyx_v_x_train, __pyx_v_y_train, __pyx_v_epochs, __pyx_v_learning_rate, __pyx_v_batch_size, __pyx_v_verbose);
+  __pyx_r = __pyx_pf_7nn_core_7network_10Sequential_10fit(__pyx_self, __pyx_v_self, __pyx_v_x_train, __pyx_v_y_train, __pyx_v_epochs, __pyx_v_learning_rate, __pyx_v_batch_size, __pyx_v_verbose);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -3859,7 +3859,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x_train, PyObject *__pyx_v_y_train, PyObject *__pyx_v_epochs, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_verbose) {
+static PyObject *__pyx_pf_7nn_core_7network_10Sequential_10fit(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x_train, PyObject *__pyx_v_y_train, PyObject *__pyx_v_epochs, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_verbose) {
   Py_ssize_t __pyx_v_samples;
   PyObject *__pyx_v_tqdm = NULL;
   PyObject *__pyx_v_i = NULL;
@@ -3906,7 +3906,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
   __Pyx_RefNannySetupContext("fit", 0);
   __Pyx_INCREF(__pyx_v_batch_size);
 
-  /* "my_nn/network.py":36
+  /* "nn_core/network.py":36
  * 
  *     def fit(self, x_train, y_train, epochs, learning_rate, batch_size=None, verbose=True):
  *         samples = len(x_train)             # <<<<<<<<<<<<<<
@@ -3916,7 +3916,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
   __pyx_t_1 = PyObject_Length(__pyx_v_x_train); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 36, __pyx_L1_error)
   __pyx_v_samples = __pyx_t_1;
 
-  /* "my_nn/network.py":37
+  /* "nn_core/network.py":37
  *     def fit(self, x_train, y_train, epochs, learning_rate, batch_size=None, verbose=True):
  *         samples = len(x_train)
  *         if batch_size is None:             # <<<<<<<<<<<<<<
@@ -3926,7 +3926,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
   __pyx_t_2 = (__pyx_v_batch_size == Py_None);
   if (__pyx_t_2) {
 
-    /* "my_nn/network.py":38
+    /* "nn_core/network.py":38
  *         samples = len(x_train)
  *         if batch_size is None:
  *             batch_size = samples             # <<<<<<<<<<<<<<
@@ -3938,7 +3938,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_DECREF_SET(__pyx_v_batch_size, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":37
+    /* "nn_core/network.py":37
  *     def fit(self, x_train, y_train, epochs, learning_rate, batch_size=None, verbose=True):
  *         samples = len(x_train)
  *         if batch_size is None:             # <<<<<<<<<<<<<<
@@ -3947,7 +3947,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
 */
   }
 
-  /* "my_nn/network.py":40
+  /* "nn_core/network.py":40
  *             batch_size = samples
  * 
  *         from tqdm import tqdm             # <<<<<<<<<<<<<<
@@ -3977,7 +3977,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "my_nn/network.py":42
+  /* "nn_core/network.py":42
  *         from tqdm import tqdm
  * 
  *         for i in range(epochs):             # <<<<<<<<<<<<<<
@@ -4013,7 +4013,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":43
+    /* "nn_core/network.py":43
  * 
  *         for i in range(epochs):
  *             err = 0             # <<<<<<<<<<<<<<
@@ -4023,7 +4023,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
     __Pyx_XDECREF_SET(__pyx_v_err, __pyx_mstate_global->__pyx_int_0);
 
-    /* "my_nn/network.py":46
+    /* "nn_core/network.py":46
  * 
  *             # Shuffle data for stochastic batching
  *             indices = np.random.permutation(samples)             # <<<<<<<<<<<<<<
@@ -4052,7 +4052,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_XDECREF_SET(__pyx_v_indices, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":47
+    /* "nn_core/network.py":47
  *             # Shuffle data for stochastic batching
  *             indices = np.random.permutation(samples)
  *             x_shuffled = x_train[indices]             # <<<<<<<<<<<<<<
@@ -4064,7 +4064,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_XDECREF_SET(__pyx_v_x_shuffled, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":48
+    /* "nn_core/network.py":48
  *             indices = np.random.permutation(samples)
  *             x_shuffled = x_train[indices]
  *             y_shuffled = y_train[indices]             # <<<<<<<<<<<<<<
@@ -4076,7 +4076,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_XDECREF_SET(__pyx_v_y_shuffled, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":50
+    /* "nn_core/network.py":50
  *             y_shuffled = y_train[indices]
  * 
  *             batches_x = [x_shuffled[k:k+batch_size] for k in range(0, samples, batch_size)]             # <<<<<<<<<<<<<<
@@ -4136,7 +4136,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_XDECREF_SET(__pyx_v_batches_x, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":51
+    /* "nn_core/network.py":51
  * 
  *             batches_x = [x_shuffled[k:k+batch_size] for k in range(0, samples, batch_size)]
  *             batches_y = [y_shuffled[k:k+batch_size] for k in range(0, samples, batch_size)]             # <<<<<<<<<<<<<<
@@ -4196,7 +4196,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_XDECREF_SET(__pyx_v_batches_y, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":53
+    /* "nn_core/network.py":53
  *             batches_y = [y_shuffled[k:k+batch_size] for k in range(0, samples, batch_size)]
  * 
  *             iterator = tqdm(zip(batches_x, batches_y), total=len(batches_x), desc=f"epoch {i+1}/{epochs}") if verbose else zip(batches_x, batches_y)             # <<<<<<<<<<<<<<
@@ -4282,7 +4282,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __Pyx_XDECREF_SET(__pyx_v_iterator, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":55
+    /* "nn_core/network.py":55
  *             iterator = tqdm(zip(batches_x, batches_y), total=len(batches_x), desc=f"epoch {i+1}/{epochs}") if verbose else zip(batches_x, batches_y)
  * 
  *             for batch_x, batch_y in iterator:             # <<<<<<<<<<<<<<
@@ -4393,7 +4393,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
       __Pyx_XDECREF_SET(__pyx_v_batch_y, __pyx_t_14);
       __pyx_t_14 = 0;
 
-      /* "my_nn/network.py":57
+      /* "nn_core/network.py":57
  *             for batch_x, batch_y in iterator:
  *                 # forward pass
  *                 output = batch_x             # <<<<<<<<<<<<<<
@@ -4403,7 +4403,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
       __Pyx_INCREF(__pyx_v_batch_x);
       __Pyx_XDECREF_SET(__pyx_v_output, __pyx_v_batch_x);
 
-      /* "my_nn/network.py":58
+      /* "nn_core/network.py":58
  *                 # forward pass
  *                 output = batch_x
  *                 for layer in self.layers:             # <<<<<<<<<<<<<<
@@ -4465,7 +4465,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
         __Pyx_XDECREF_SET(__pyx_v_layer, __pyx_t_10);
         __pyx_t_10 = 0;
 
-        /* "my_nn/network.py":59
+        /* "nn_core/network.py":59
  *                 output = batch_x
  *                 for layer in self.layers:
  *                     output = layer.forward(output)             # <<<<<<<<<<<<<<
@@ -4485,7 +4485,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
         __Pyx_DECREF_SET(__pyx_v_output, __pyx_t_10);
         __pyx_t_10 = 0;
 
-        /* "my_nn/network.py":58
+        /* "nn_core/network.py":58
  *                 # forward pass
  *                 output = batch_x
  *                 for layer in self.layers:             # <<<<<<<<<<<<<<
@@ -4495,7 +4495,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
       }
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
 
-      /* "my_nn/network.py":62
+      /* "nn_core/network.py":62
  * 
  *                 # compute loss (for display purpose only)
  *                 err += self.loss(batch_y, output)             # <<<<<<<<<<<<<<
@@ -4518,7 +4518,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
       __Pyx_DECREF_SET(__pyx_v_err, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "my_nn/network.py":65
+      /* "nn_core/network.py":65
  * 
  *                 # backward pass
  *                 error = self.loss_prime(batch_y, output)             # <<<<<<<<<<<<<<
@@ -4538,7 +4538,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
       __Pyx_XDECREF_SET(__pyx_v_error, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "my_nn/network.py":66
+      /* "nn_core/network.py":66
  *                 # backward pass
  *                 error = self.loss_prime(batch_y, output)
  *                 for layer in reversed(self.layers):             # <<<<<<<<<<<<<<
@@ -4610,7 +4610,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
         __Pyx_XDECREF_SET(__pyx_v_layer, __pyx_t_10);
         __pyx_t_10 = 0;
 
-        /* "my_nn/network.py":67
+        /* "nn_core/network.py":67
  *                 error = self.loss_prime(batch_y, output)
  *                 for layer in reversed(self.layers):
  *                     error = layer.backward(error, learning_rate)             # <<<<<<<<<<<<<<
@@ -4630,7 +4630,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
         __Pyx_DECREF_SET(__pyx_v_error, __pyx_t_10);
         __pyx_t_10 = 0;
 
-        /* "my_nn/network.py":66
+        /* "nn_core/network.py":66
  *                 # backward pass
  *                 error = self.loss_prime(batch_y, output)
  *                 for layer in reversed(self.layers):             # <<<<<<<<<<<<<<
@@ -4640,7 +4640,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
       }
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "my_nn/network.py":55
+      /* "nn_core/network.py":55
  *             iterator = tqdm(zip(batches_x, batches_y), total=len(batches_x), desc=f"epoch {i+1}/{epochs}") if verbose else zip(batches_x, batches_y)
  * 
  *             for batch_x, batch_y in iterator:             # <<<<<<<<<<<<<<
@@ -4650,7 +4650,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "my_nn/network.py":69
+    /* "nn_core/network.py":69
  *                     error = layer.backward(error, learning_rate)
  * 
  *             if verbose:             # <<<<<<<<<<<<<<
@@ -4660,7 +4660,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
     __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_verbose); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 69, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "my_nn/network.py":71
+      /* "nn_core/network.py":71
  *             if verbose:
  *                 # Calculate mean error for the epoch
  *                 err /= len(batches_x)             # <<<<<<<<<<<<<<
@@ -4675,7 +4675,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
       __Pyx_DECREF_SET(__pyx_v_err, __pyx_t_8);
       __pyx_t_8 = 0;
 
-      /* "my_nn/network.py":72
+      /* "nn_core/network.py":72
  *                 # Calculate mean error for the epoch
  *                 err /= len(batches_x)
  *                 print(f"epoch {i+1}/{epochs}   error={err}")             # <<<<<<<<<<<<<<
@@ -4713,7 +4713,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
       }
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "my_nn/network.py":69
+      /* "nn_core/network.py":69
  *                     error = layer.backward(error, learning_rate)
  * 
  *             if verbose:             # <<<<<<<<<<<<<<
@@ -4722,7 +4722,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
 */
     }
 
-    /* "my_nn/network.py":42
+    /* "nn_core/network.py":42
  *         from tqdm import tqdm
  * 
  *         for i in range(epochs):             # <<<<<<<<<<<<<<
@@ -4732,7 +4732,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "my_nn/network.py":35
+  /* "nn_core/network.py":35
  *         return output
  * 
  *     def fit(self, x_train, y_train, epochs, learning_rate, batch_size=None, verbose=True):             # <<<<<<<<<<<<<<
@@ -4754,7 +4754,7 @@ static PyObject *__pyx_pf_5my_nn_7network_10Sequential_10fit(CYTHON_UNUSED PyObj
   __Pyx_XDECREF(__pyx_t_14);
   __Pyx_XDECREF(__pyx_t_15);
   __Pyx_XDECREF(__pyx_t_17);
-  __Pyx_AddTraceback("my_nn.network.Sequential.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nn_core.network.Sequential.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_tqdm);
@@ -5104,13 +5104,13 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   if (__Pyx_InitConstants(__pyx_mstate) < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
   stringtab_initialized = 1;
   if (__Pyx_InitGlobals() < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
-  if (__pyx_module_is_main_my_nn__network) {
+  if (__pyx_module_is_main_nn_core__network) {
     if (PyObject_SetAttr(__pyx_m, __pyx_mstate_global->__pyx_n_u_name, __pyx_mstate_global->__pyx_n_u_main) < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "my_nn.network")) {
-      if (unlikely((PyDict_SetItemString(modules, "my_nn.network", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "nn_core.network")) {
+      if (unlikely((PyDict_SetItemString(modules, "nn_core.network", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   /*--- Builtin init code ---*/
@@ -5128,7 +5128,7 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   (void)__Pyx_modinit_function_import_code(__pyx_mstate);
   /*--- Execution code ---*/
 
-  /* "my_nn/network.py":1
+  /* "nn_core/network.py":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * 
  * class Sequential:
@@ -5139,24 +5139,24 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_np, __pyx_t_2) < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "my_nn/network.py":3
+  /* "nn_core/network.py":3
  * import numpy as np
  * 
  * class Sequential:             # <<<<<<<<<<<<<<
  *     def __init__(self):
  *         self.layers = []
 */
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_u_Sequential, __pyx_mstate_global->__pyx_n_u_Sequential, (PyObject *) NULL, __pyx_mstate_global->__pyx_n_u_my_nn_network, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_u_Sequential, __pyx_mstate_global->__pyx_n_u_Sequential, (PyObject *) NULL, __pyx_mstate_global->__pyx_n_u_nn_core_network, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "my_nn/network.py":4
+  /* "nn_core/network.py":4
  * 
  * class Sequential:
  *     def __init__(self):             # <<<<<<<<<<<<<<
  *         self.layers = []
  *         self.loss = None
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_5my_nn_7network_10Sequential_1__init__, 0, __pyx_mstate_global->__pyx_n_u_Sequential___init, NULL, __pyx_mstate_global->__pyx_n_u_my_nn_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[0])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 4, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_7network_10Sequential_1__init__, 0, __pyx_mstate_global->__pyx_n_u_Sequential___init, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[0])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_3);
@@ -5164,14 +5164,14 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_init, __pyx_t_3) < (0)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "my_nn/network.py":9
+  /* "nn_core/network.py":9
  *         self.loss_prime = None
  * 
  *     def add(self, layer):             # <<<<<<<<<<<<<<
  *         self.layers.append(layer)
  * 
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_5my_nn_7network_10Sequential_3add, 0, __pyx_mstate_global->__pyx_n_u_Sequential_add, NULL, __pyx_mstate_global->__pyx_n_u_my_nn_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 9, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_7network_10Sequential_3add, 0, __pyx_mstate_global->__pyx_n_u_Sequential_add, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_3);
@@ -5179,14 +5179,14 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_add, __pyx_t_3) < (0)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "my_nn/network.py":12
+  /* "nn_core/network.py":12
  *         self.layers.append(layer)
  * 
  *     def use(self, loss, loss_prime):             # <<<<<<<<<<<<<<
  *         self.loss = loss
  *         self.loss_prime = loss_prime
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_5my_nn_7network_10Sequential_5use, 0, __pyx_mstate_global->__pyx_n_u_Sequential_use, NULL, __pyx_mstate_global->__pyx_n_u_my_nn_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 12, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_7network_10Sequential_5use, 0, __pyx_mstate_global->__pyx_n_u_Sequential_use, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_3);
@@ -5194,14 +5194,14 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_use, __pyx_t_3) < (0)) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "my_nn/network.py":16
+  /* "nn_core/network.py":16
  *         self.loss_prime = loss_prime
  * 
  *     def predict(self, input_data):             # <<<<<<<<<<<<<<
  *         samples = len(input_data)
  *         result = []
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_5my_nn_7network_10Sequential_7predict, 0, __pyx_mstate_global->__pyx_n_u_Sequential_predict, NULL, __pyx_mstate_global->__pyx_n_u_my_nn_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 16, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_7network_10Sequential_7predict, 0, __pyx_mstate_global->__pyx_n_u_Sequential_predict, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_3);
@@ -5209,14 +5209,14 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_predict, __pyx_t_3) < (0)) __PYX_ERR(0, 16, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "my_nn/network.py":29
+  /* "nn_core/network.py":29
  *         return result
  * 
  *     def predict_batch(self, input_data):             # <<<<<<<<<<<<<<
  *         output = input_data
  *         for layer in self.layers:
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_5my_nn_7network_10Sequential_9predict_batch, 0, __pyx_mstate_global->__pyx_n_u_Sequential_predict_batch, NULL, __pyx_mstate_global->__pyx_n_u_my_nn_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_7network_10Sequential_9predict_batch, 0, __pyx_mstate_global->__pyx_n_u_Sequential_predict_batch, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_3);
@@ -5224,14 +5224,14 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_predict_batch, __pyx_t_3) < (0)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "my_nn/network.py":35
+  /* "nn_core/network.py":35
  *         return output
  * 
  *     def fit(self, x_train, y_train, epochs, learning_rate, batch_size=None, verbose=True):             # <<<<<<<<<<<<<<
  *         samples = len(x_train)
  *         if batch_size is None:
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_5my_nn_7network_10Sequential_11fit, 0, __pyx_mstate_global->__pyx_n_u_Sequential_fit, NULL, __pyx_mstate_global->__pyx_n_u_my_nn_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 35, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_7network_10Sequential_11fit, 0, __pyx_mstate_global->__pyx_n_u_Sequential_fit, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_network, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_3);
@@ -5240,7 +5240,7 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_fit, __pyx_t_3) < (0)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "my_nn/network.py":3
+  /* "nn_core/network.py":3
  * import numpy as np
  * 
  * class Sequential:             # <<<<<<<<<<<<<<
@@ -5256,7 +5256,7 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "my_nn/network.py":1
+  /* "nn_core/network.py":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * 
  * class Sequential:
@@ -5274,7 +5274,7 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
   __Pyx_XDECREF(__pyx_t_3);
   if (__pyx_m) {
     if (__pyx_mstate->__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init my_nn.network", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init nn_core.network", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -5288,7 +5288,7 @@ __Pyx_RefNannySetupContext("PyInit_network", 0);
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init my_nn.network");
+    PyErr_SetString(PyExc_ImportError, "init nn_core.network");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -5325,7 +5325,7 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "my_nn/network.py":35
+  /* "nn_core/network.py":35
  *         return output
  * 
  *     def fit(self, x_train, y_train, epochs, learning_rate, batch_size=None, verbose=True):             # <<<<<<<<<<<<<<
@@ -5365,33 +5365,33 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
 static int __Pyx_InitConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   {
-    const struct { const unsigned int length: 9; } index[] = {{1},{1},{1},{6},{9},{16},{20},{10},{19},{14},{14},{18},{24},{14},{3},{6},{18},{8},{10},{7},{7},{9},{9},{17},{18},{4},{7},{6},{3},{5},{3},{7},{8},{1},{7},{8},{10},{13},{5},{8},{1},{5},{6},{13},{4},{10},{8},{13},{10},{13},{8},{2},{5},{6},{11},{3},{7},{13},{11},{5},{12},{6},{6},{8},{7},{4},{12},{10},{8},{5},{4},{3},{6},{7},{10},{7},{10},{7},{3},{13},{16},{32},{23},{76},{346}};
-    #if (CYTHON_COMPRESS_STRINGS) == 3 && __PYX_LIMITED_VERSION_HEX >= 0x030e0000 /* compression: zstd (777 bytes) */
-const char* const cstring = "(\265/\375`\221\003\375\027\000\226,\2258 us\000\\\204\252\217\0106\240^\"\010\325\0173(\0330/b+n)\262{\345\3654\2669I\316yhN3\317K\007H+1\257\327\372\002\334\377j\300\223W\025\005{\000s\000\217\000u\273\367\261{\346i\356\031~\3553z\263\333\352ok\367\271\346\347q\214)\227\271\213-\307/\266\036\250b\327.\375\351\311\350\016~[s\350]/Ky5\263\"\246\232\375\357\243\232F\037\207\254,\323\035\317\252\366\367\313u\3234\352\236\253\255\356)\216\326l?\004_f\373\230\334z\027\317Y5i\211/\356\342\227\352\271\336O~\273a\255\213]\310\365\356}\013V\346}/\262\221\n\331\303\237\335\351\366Z~\354\276q\217\361s_G\261\366\370\276\317\337\314\205\370o\347i\226^\216\206\240{\266\365/\375\376~\356\237\367Y\257f\232\303\356\376'~]h?K\255{\312\375\271P\363h~w[i\347\376]\275\237c\354q\237\351u\036[\355\245\317\341\373\"\345z\256\227\351\305\216\253\323L5\317\341g+\376\254j\266V\367\314\206\233\373\365\266\034'j\014\030\037V\244\212\024\332\005{G?$\000\020$a\033\307\225\260#2\375\341B@j\371(?\004\312\023\333\250\235\241\027L&8\322\221\265\035v\304\311\204\331\r\373@\237L\346j,\215\340\2669AM\265\203>9\251\206\321\027z\201\352\025\320\245``\252Fl\324\3304\332\301d\242\366\214VAi\024\266]t\212jc\333C\243\270L\006\346\252\350\253@\242h+\275\331[\332s\333\026\262\260\267\036{;\370C\216\372<\016;\r\314\034\r\364\005\363\352\300(W#\003\270\351f9\234L\254\037N'\350R0\235\330\313\203<\331\024\r&Fj#\314X\363:`\331\002;\002##:v\326\020(\025\211\221\032#\315\256h0Q\343\314V\321\r'\023u\256\306\211\263\324Rb)\261\224F\000\000\222\210\206\312\241\2402\310\226\226\226T\247\324\311)spJ\234\233\362\306\246\264\211)i\220(\216\002\216d\214|^ $B\311V\355\254\037L\247\t\"\325#\216#\354\210\306h\300\310\344e\"IF\325(\261\0036\204)L(P\204\030\253\343\001\001A\314hH%5\332\317\313\320;\322\200\035\025\302\245Za\nk\351F\215\226\311\306Z\362/Z\024`\263\302)\320\272g\317Ssh\205\005\224\224x\017\206`\350*\031\230\367\016\326\305\345\227\rc\266\376\217\363Y\3641\364\220\302\240\271\037\027]K\310\025\241\031BU\300<\365""\234?\374wjK\300X\322;\030\276v\275\021z[\265\301\npn\230Ay\007;\221\322\262\201\225qE\240\255Y\225\023\021iO\211D\210\026mb\247'k\366\234_\262\235`Q\241\333\205\356,\276T\245\030\305\327\225\003";
-    PyObject *data = __Pyx_DecompressString(cstring, 777, 3);
+    const struct { const unsigned int length: 9; } index[] = {{1},{1},{1},{6},{9},{18},{20},{10},{19},{14},{14},{18},{24},{14},{3},{6},{18},{8},{10},{7},{7},{9},{9},{17},{18},{4},{7},{6},{3},{5},{3},{7},{8},{1},{7},{8},{10},{13},{5},{8},{1},{5},{6},{13},{4},{10},{8},{13},{10},{8},{15},{2},{5},{6},{11},{3},{7},{13},{11},{5},{12},{6},{6},{8},{7},{4},{12},{10},{8},{5},{4},{3},{6},{7},{10},{7},{10},{7},{3},{13},{16},{32},{23},{76},{346}};
+    #if (CYTHON_COMPRESS_STRINGS) == 3 && __PYX_LIMITED_VERSION_HEX >= 0x030e0000 /* compression: zstd (778 bytes) */
+const char* const cstring = "(\265/\375`\225\003\005\030\000\006\354\2238 us\000\\\204\252\217\010\326\240\000\334\"T?\314\240l\300\274\210\255\270\245\310\356\025\307\323\330\346$9\347\2419\315</\035 \255\304\274^\353\013p\355\321)\361\377Ycy\000s\000\215\000\367>v\327\274\315]\303\277\275Fov[\375mm}\256\371w\034c\332i\356\242\313\361\213\256\377\251\330\267K}x4\252\203\337\326\034z\327\323R^\325\254\210\351f\377\373\350\343\220\245e\252\343Z\335\376~\271r\333F\335s\265\325=\325\321\232\355\207\340\307p\017\223]\337\342Y\253%.\321\305]\374R<\327\363\311o5\376z\232[\013r\275{\277\202\245y\337\207h\244\002\036\376\354N\271\337\362cw\256{\214\277\373Z\024o\217\357\367\374\315]\210\377\266\274\315\322\333\321\020t\317\266\376\245\337\337\317\375\363>\353\325Ls\330\272\377\211_+\264\237MQ\373]\270y4\277\273\255\264\345\376\255z?\307\330\353>\323\353;\266\332K\277\303\367E\332\361\\/\323\213\035W\247\231n\236\303\317V\374Z\335l\255\356\232\r9\367\353q\271r\001\347i\014\030\035V\244\212\014\332\005[G;$\000\020\034e\373\346\225\260!4\355\361B0b\361(=\004\3123\333\247\215\241\027J&8\322\221\265\0336\204\311|\331\250}\240M%s5\222Fp\327\234\240\246\272A\233\234T\277h\013\275@\265\n\370R00Uc6f\354\031\335P2O[F\247\234\364)\333-\032E\265\263\335\241O^%\003sE\364\325\037Q\264\325\265}\307q!\013\273\353\261\247\203?\354h\317\343\260\265\201\271\2439\024\366\002\343\270(W#\003\270\351f5\230L\254\035L'\370R(\235\031\254\2034\331\023(3#\267\361e\244\201\035\254l\201\r\221\221\020\034;\353\207\223\212\314\310\214qfS\240\314\323(\263S4\312d\236\316\325(q\222XH+\244\025\222\010\000\300\321\220P)\004T\002\331\322\322\222\346\22498%\316MycS\332\324\22450\345\214\321D, \026S\324\003\373 \021H\266jg\355P:M\320\250\3066bYl\246h\240\250\004V\"GF\325\030\261\003\366C)O(P\204\230\252\353\001\001I\313hF%5\332\317\313\320;r\300\016\n!\246\0320\345ji\243\366\313\344c\217\374\275\026Y\330$v\212[w\222\247\327\334]!\014\312'\036\305\220\022])\003\023\337\321u1\030\260\201\314\326\370q\006\026mL7$b0\335\222Kb\250\3235\261 \3771$""k\002\021\340\353\302\241\273c\023\002\312\322\336\301\364\305\242\360\255\260(\340J\2059\340\332\260\240\362\014~\242\245\345\007V=\212\300\\3Z\n!\021\236\232\211\010\027o\252'(\253\370\220\021aFn5\301\222B\264\013\2713}\251O\021\232\257+\007";
+    PyObject *data = __Pyx_DecompressString(cstring, 778, 3);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (842 bytes) */
-const char* const cstring = "BZh91AY&SY5\276R\035\000\000T\177\377\367\356\376\376j\301\252\216\376\375~^\377\357\377\375\300@@@@@@@@@@@@\000@\000@\002\2744*E\21455H\320a\250\323G\223L\246\214L\206\206\232\030@\304m&CC\023M\250a1\251\231\014\200\324\321\030S\002d\2324\36544\r\250\000\000\000\000\000\003#@4\000\034\0004\r\000\320\320\000\000\323\020\321\246\200\000\000\r\014\200\0000\323B\020ji\244\236\246\321\241\2412h\003@\320\000\000\000\000\032\031\006\230\t\276\"\2122\273\303\3726\000\333\323\3527Uwc\270&\213\275\276\n!$\201\2707q\353\204\tB\204\006@\034Z\251\222\351\000T8qE\004Pw\225X\254`\n\310f\010\027\021\r\226\356\303\022\202\312H\220t\317\276q\323\342\340@Z\"\013Y6#\200^>\277\240\325:\244}\216\243HI**\263\013\317\255\347\275\240\332\335<\252\367\222\220w\313H\244\366\270\"a\210\013\004\311Z-Jm\202\t3\026\250k\317Ud\t<)\270\302#\210\3171\256s\366\024\025\017U\361si@\307e\030\266\037\371\256/\236\024(\375\r\023\200\261\300T\t\210\252\242\226)\244Q\346\024@\247\354\213\257K\013\256\357\020ok\345\325\243\373\013z\355\370\017\342'\372;6\245\221\271\203hl\317@8\272\211*\316D\006p\317\321M\226J\254\302&\330p\231\312Z|\014\314\ry\020\273\244\323&((\271Q\224ZB\234P\260\r\2513L\213\331W\315dF\327\316\333\210\016\343J\331=\324\303\211\021ua\3671\223of\266`\261\266\341\272\017?\013\213\201\310\212\355`\355\225y\354%\212)\244\034\2350\2400\025\214\314\370\242Z5\212J\254\325\316\266Bn\221\210\2342\341d\203\336\272\347PT)&\244B)\"4\250H\305-\264%\004Gv\004\032@M\333\246'WZh\230\021\0312\321\215\270F\310\240w\010,\317\034(\306\232q+\017\003B\211\320\206\tE\225\200\237,a\244\210\237cN\316h\023\360\304#,d\213=\026\264)D\345f&\222.j\351\251k\224%\002\201bX\202\333\221\223\202\221\021\210`\310\016Z\330\241F\0020\305\364&\036\205\0231\215B\024\022\213w\215<\220G\007\005..SI\251\231\021\215\t3J$\003\300\301\244id0\025\2160\001\256\213i\271^\034\214h\312h9<\242\277\235Jx\221\267\343\007\366q\016\210\022\210C\311U\212\255\212\211\376\377U\335B\240\342\3230\024*\232\200Pa\025\300\304\270\246.\205X 2d+T\333@""\032B\331\256K\301\226N\237\231]#[\r\224\013\361\242\316\374\202(\177\377I?\302]\251\243]\225\223\021\261\220A\"\021IV\017=pK\240\301\006\232\033\2348\2173\303;\2074\263\034%;\213\022PD\346\225\037\214\213I\244\016\r\014\261\224\010f\227\255\304\267R\313f\370\274\036\006\254\036\212\246\"\305,\016J\224|7\330\0029\021\014c\276\360\221\377\213\271\"\234(H\032\337)\016\200";
-    PyObject *data = __Pyx_DecompressString(cstring, 842, 2);
+    #elif (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (849 bytes) */
+const char* const cstring = "BZh91AY&SY\361\226\203Z\000\000T\377\377\367\356\376\376j\301\252\216\376\375~^\377\357\377\375\300@@@@@@@@@@@@\000@\000@\002\2745R\221c\rMQ2hf\246\021\345=2#M\032\032\006\002b2\033D\320d\304\321\352\0314\300d2@\324\320\004\321\246\246I\211\265OF\220\323h\000\021\204\000\0314h\321\204\304\300L\010\007\000\r\003@44\000\0004\3044i\240\000\000\003C \000\0144\320\204M\250jM\246\223i\223D\365\0324\r\r4\000\003@\000\032\000i\241\243L\312d\021E\031\375\324\375\215\300?\332\2756\352.\374w\204\321q\344\005\020\222@\336\033\367j\204\tB\204\006@\034V\251\234\351\000T8qE\004Pq\252\261X\300\025\220\300 \\D5\367v\032\n\013)\"A\323J\341\272\233.\004\005b \265\251\261\031e\343\351\370\217\241\331#\344u\332BI`\252\314.\265O<x\233k\245\237V4\244\034\205\244R{\271\202a\210\r\004\353\311/N\"\201\005\231\315dzl3\211\002\256<G\270\210\342\223\310\237\271\377\005>\371\370 k;\252\202\353*~w4a\372\333\031\207\024i\220\272T\335*\005B\241\026dR\3454\313\220\2227A\010BD\007%)X(\363U'\203\240\0363\322\241\3721\272\327\331\023AsX\355\035\222\367\302E\264ITx0\030F\216$\376\262X\265xM\257^3\224\265r\360f\266R!wI\240\316\212\n&\220\230\2640;-P\003\265\210D\244+8SP9\005\3057{\226\002R<Qbg5\274\003\031\274\021\3531\227v\333]\222\345*>\0214\"\366\316\372\013\r\240\352.\233\016&\213\213\302\017\257!N`*\0304\242\211X\332)+\030WF\271\t\272F\"p\277\013R\017\225m\316\270\261I\006\302!\014$R\266\n\234\306\251\013A\021\345\235\006\250\022\256\256\211Y\020M\242GT\345\274\215\237h\357 \336*gHq\215A\305\347\236\262E\303\241\017\256\n\365\242@\263z\370)b\274\034\231l\244\024#pFW\022,\364V\320\245\023\225\2014\321p\256\252\226\263BP(\026\203\203i\005ve\007\005\"#\020\301\220\034\013iB\214\322/\305\361L=\n&c\033\002\024\022\213oRy\300\214\314\332\\Y\246\223a\231\021\215\t3J$\003\300\301\244id0\025\r@\003[\025\3233\355\332\242\222\254\016S0\261\353\340X\025*\024\203\365=\023\250\361\022\251vY\202W\017\373\376\263\363\177\2766{L\005+\006\244\024\031\005\2402\254*\213\301U\310\014\371\312\345V\220CQt\337\2230\350""\225\251\342W\210\327CE\002\334\210\261\275\322E\017\037\272O\362\024\364\321\264\306$\304\\\304\020H\204BUs\317X\022\310.A\226F\337\026S\314\360\316\241\320-'\tn\242p\313\010\234\312\243\351\201q4\201\301\221\242*\201\r3\034q\342\326\333\333\303\340\330\330j\201\350*h\026)h9*Q\357\\`\010\344D1\216G\204\217\374]\311\024\341BC\306Z\rh";
+    PyObject *data = __Pyx_DecompressString(cstring, 849, 2);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (761 bytes) */
-const char* const cstring = "x\332}QKo\0231\020n#\036E\004\221@\253R(\022+\204\350)U\204\020\207\202 @\305\243\025\242@%\324\026\271\356\356\244\261\330\365nlo\311\002\002\216=\372\350\343\036\367\230c\2179\366\270\307=\356O\350O`\234D%\010\tK\266\347\341\371\346\233\317\215\345\307\020\205n\347\026.\020\"\024\217\202\204p\276\314A}\t\305\347F\224\020\3626\351\341~\316\\E\336@O\275\203\366{\350\306\300\025\243\376\037\253A\010\343L\0212\021\242\2367\341\265\231\232\360\"\001\036B\376\033!{T\271\235\211x,\001\201h\024\001\367\250L\270\313\302\206\033\2120V\214\203\334\243\356\347/Tx\303*\"\331W\030Y\275\321\225\014/\220c\037\r\234\310\365\251\224d\037\024S\020X\027\201\220=Q\202\272`\001=\220.!^\210\307P\036\211\332\014\345\301\031\332\241\260\375\010i\307\034\363\214qd\215\270\343\361\031\217bE<\252(a\222\234\362\264\235$\036\202*\324\325\247\t\210\341!}\240\2023\276O0\003~(\245\335$\022,\000B\002\212\254p\005\240\350\210\264uB/\366m\322\376Tc\374S\204pj+x\304\343 J\260)\322\210@\004\261\242\212\205<\n\243\261\276\177\311L\260\023DT\2005\030G\376\335\230\372#(A\271\027\006\002d\354+\001\007\310\025<I\203\310\007)\301o\023\"A\215\273\242\345A\233\342CB\024H{\206\212\372\252\353\005\370{\007\324\217A\"\300^(\241Gd'n\267}\360zVo\306\223\323@2\n|e\321\257V1S=|\241\037\030\3074G\316K=\274\336\030\307\372u]\267\336+\375\301\324\213\352\234\3364K\251\2236\213\231\313\207\335\321\373\327\232\376[vE\337\326\0336\201\365%\206W\365\234\246\272[\"\302\226\351\246\025\213\221\266\212jM_0\263f\243\250-\2309\323Ii\332-\252W\364]S7Ni[\344gV\362\225\365\343I\304\213\207+\332\265d\026\014B_:\3341\223\035l\271srn\352\322\274\3363\347\315\367\254\231\265\354\323\371t:\255\237\032e\365\232\2316\327\221\303S\3333\253\366\237\037\235=\332\0348\203{\003v\214 \377M\227\325y\255L\323<\303I.f\017\373\007G\357\007\323\203\305\343\315\374\335V\276\265\235o\357\344;\237\362O\273\371.\315)\317\371\267\374\333\217\374\307\317\223\251\251'\225\265\n^k\225\365J9\234\375F\332*q\366zQ\233\325\257\314\007\2448{\323l\246K\231\2235q""\212\3725lt\037\031/dv\250\372\2029c\326\220\320\205\376\270\342c\272\221z\231S\314.\232U\373({\320w\312*\nW\326\346\265\264\237Z\324\346P\267\216\241Hv:\275\232\266\362;\367\373\033}\372\033#3\324\226";
-    PyObject *data = __Pyx_DecompressString(cstring, 761, 1);
+    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (762 bytes) */
+const char* const cstring = "x\332}QMo\0231\020m#>Z\221\212\244\264*\345Cb\205\020\234\202\"T\365P\020\004\212\240\024!\nTB\245\225qw'\215\325]\357\306\366\226\244E\205c\217>\372\270\307=\346\330c\216=\356q\217\373\023\370\t\214\223\250\004!a\311\366\314x\346\315\233\347\332\303\247\020\205n\353\016.\020\"\024O8'n(\340!\007\365-\024\373\265\250K\310\373n\007\367*s\025y\007\035\365\001\232\037\241\035\003W\214\372\177\254\032!\2143E\310X\210z\336\230\327dj\314\213\004x\010\371o\204\354R\345\266\306\342\261\004\004\242Q\004\334\243\262\313]\026\326\220d\030+\306A\356Rw\377\033\025\336\240\212Hv\010C\2533\274\272\203\013\344\310G\003'r}*%\331\003\305\024\004\326E dO\224\240.X@\017\244K\210\027\3421\020H\242:\003\201p\206f(l?B\2321\307w\3068\262F\334\321\370\214G\261\"\036U\2240I\316y\332N\022\017A\025\352\352\323.\210\301!}\240\2023\276G\360\005\374PJ\273I$X\000\204\004\024Y\341\n@\321!i\353\204^\354\203\2658\265I\243?\253\215\376\214G<\016\242.\266E\"\021\210 VT\261\220Ga4R\370/\241\t\366\202\210\n\260\006\3438A;\246\376\020YP\356\205\201\000\031\373J\300\001\262\005O\322 \362AJ\360\233\204HP#\022hy\320\244\230H\210\002i\317PQ_\265\275\000\377\357\200\3721H\004\330\r%t\210l\305\315\246\017^\307*\316x\367<\320\035\006\016Y\364\263\221O\225O^\351e\343\230\372\320y\255\007\327;\343X\277\252\253\326[\323\237L5/\317\353M\363 q\222z>u\365\244=\314\177\243\351\277e\263\372\256\336\260\017X_`\370\245\236\327T\267\013D\3302\355\244d1\222F^\256\350i3g6\362\312\242\2317\255\204&\355\274<\253\357\233\252q\n\333\"\273\260\222\255\274=\033G\274r\262\242]Kf\321 \364\314\311\266\031\357`\313\235_\227&f\026\364\256\271l\276\247\365\264aS\027\222\311\244zn\024\345\353f\322\334@\016\317m\317\264\334[=\275x\272\331w\372\217\372\354\014A\376\373\\\224\027\2642u\363\002'\271\222>\356\035\234~\354O\366o\235mf\037\266\262\255/\331\227\355l{'\333\371\232}\245\031\345\031?\312\216\216\263\343\037\277&&\236\225\326Kx\255\227\336\226\212\301\3547\223F\201\263W\363\312\234^3\237\220\342\334m\263\231<H\235\264\216ST\257c\243%""d\274\230\332\241\252\213\346\202YGB\323\275Q\305\347d#\361R'\237\273e^\332\244t\271\347\024e\024\256\250,hi?5\257\314\243n-C\221\354dr-id\367\226z\033=\372\033*\243\326\034";
+    PyObject *data = __Pyx_DecompressString(cstring, 762, 1);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #else /* compression: none (1169 bytes) */
-const char* const bytes = "./?epoch    error=my_nn/network.py__Pyx_PyDict_NextRefSequentialSequential.__init__Sequential.addSequential.fitSequential.predictSequential.predict_batchSequential.useaddappendasyncio.coroutinesbackwardbatch_sizebatch_xbatch_ybatches_xbatches_y__class_getitem__cline_in_tracebackdesc__doc__epochserrerrorfitforward__func__iindices__init__input_data_is_coroutineitemsiteratorklayerlayerslearning_ratelossloss_prime__main____metaclass____module__my_nn.network__name__npnumpyoutputpermutationpoppredictpredict_batch__prepare__print__qualname__randomresultreversedsamplesself__set_name__setdefault__test__totaltqdmusevaluesverbosex_shuffledx_trainy_shuffledy_trainzip\200A\330\010\014\210G\2207\230!\2301\200A\330\010\014\210H\220A\330\010\014\210N\230!\200A\330\010\021\220\021\330\010\014\210I\220T\230\021\330\014\025\220U\230(\240!\2401\330\010\017\210q\200A\330\010\014\210J\220a\330\010\014\210H\220A\330\010\014\210N\230!\200A\330\010\022\220#\220Q\220a\330\010\021\220\021\340\010\014\210E\220\025\220a\220q\340\014\025\220Z\230q\240\002\240!\2401\240A\330\014\020\220\t\230\024\230Q\330\020\031\230\025\230h\240a\240q\330\014\022\220'\230\021\230!\340\010\017\210q\320\004;\320;L\310A\330\010\022\220#\220Q\220a\330\010\013\210;\220c\230\021\330\014\031\230\021\340\010\r\210\\\230\021\340\010\014\210E\220\025\220a\220q\330\014\022\220!\360\006\000\r\027\220b\230\007\230|\2501\250A\330\014\031\230\027\240\001\240\021\330\014\031\230\027\240\001\240\021\340\014\030\230\001\230\032\2401\240B\240a\240q\250\014\260D\270\005\270U\300!\3003\300i\310q\330\014\030\230\001\230\032\2401\240B\240a\240q\250\014\260D\270\005\270U\300!\3003\300i\310q\340\014\027\220t\2301\230C\230q\240\013\250<\260v\270S\300\001\300\034\310U\320RZ\320Z[\320[\\\320\\]\320]`\320`a\320an\320n{\320{~\320~\177\360\000\000@\002K\002\360\000\000K\002L\002\340\014\020\220\t\230\033\240A\340\020\031\230\021\330\020\024\220I\230T\240\021\330\024\035\230U\240(\250!\2501\360\006\000\021\030\220t\2305\240\001\240\031\250!""\360\006\000\021\031\230\004\230K\240q\250\t\260\021\330\020\024\220I\230X\240Q\240d\250!\330\024\034\230E\240\031\250!\2507\260!\340\014\017\210q\340\020\027\220s\230!\2301\330\020\025\220Q\220h\230a\230q\240\001\240\023\240A\320%5\260Q\260a";
+    #else /* compression: none (1173 bytes) */
+const char* const bytes = "./?epoch    error=nn_core/network.py__Pyx_PyDict_NextRefSequentialSequential.__init__Sequential.addSequential.fitSequential.predictSequential.predict_batchSequential.useaddappendasyncio.coroutinesbackwardbatch_sizebatch_xbatch_ybatches_xbatches_y__class_getitem__cline_in_tracebackdesc__doc__epochserrerrorfitforward__func__iindices__init__input_data_is_coroutineitemsiteratorklayerlayerslearning_ratelossloss_prime__main____metaclass____module____name__nn_core.networknpnumpyoutputpermutationpoppredictpredict_batch__prepare__print__qualname__randomresultreversedsamplesself__set_name__setdefault__test__totaltqdmusevaluesverbosex_shuffledx_trainy_shuffledy_trainzip\200A\330\010\014\210G\2207\230!\2301\200A\330\010\014\210H\220A\330\010\014\210N\230!\200A\330\010\021\220\021\330\010\014\210I\220T\230\021\330\014\025\220U\230(\240!\2401\330\010\017\210q\200A\330\010\014\210J\220a\330\010\014\210H\220A\330\010\014\210N\230!\200A\330\010\022\220#\220Q\220a\330\010\021\220\021\340\010\014\210E\220\025\220a\220q\340\014\025\220Z\230q\240\002\240!\2401\240A\330\014\020\220\t\230\024\230Q\330\020\031\230\025\230h\240a\240q\330\014\022\220'\230\021\230!\340\010\017\210q\320\004;\320;L\310A\330\010\022\220#\220Q\220a\330\010\013\210;\220c\230\021\330\014\031\230\021\340\010\r\210\\\230\021\340\010\014\210E\220\025\220a\220q\330\014\022\220!\360\006\000\r\027\220b\230\007\230|\2501\250A\330\014\031\230\027\240\001\240\021\330\014\031\230\027\240\001\240\021\340\014\030\230\001\230\032\2401\240B\240a\240q\250\014\260D\270\005\270U\300!\3003\300i\310q\330\014\030\230\001\230\032\2401\240B\240a\240q\250\014\260D\270\005\270U\300!\3003\300i\310q\340\014\027\220t\2301\230C\230q\240\013\250<\260v\270S\300\001\300\034\310U\320RZ\320Z[\320[\\\320\\]\320]`\320`a\320an\320n{\320{~\320~\177\360\000\000@\002K\002\360\000\000K\002L\002\340\014\020\220\t\230\033\240A\340\020\031\230\021\330\020\024\220I\230T\240\021\330\024\035\230U\240(\250!\2501\360\006\000\021\030\220t\2305\240\001\240\031""\250!\360\006\000\021\031\230\004\230K\240q\250\t\260\021\330\020\024\220I\230X\240Q\240d\250!\330\024\034\230E\240\031\250!\2507\260!\340\014\017\210q\340\020\027\220s\230!\2301\330\020\025\220Q\220h\230a\230q\240\001\240\023\240A\320%5\260Q\260a";
     PyObject *data = NULL;
     CYTHON_UNUSED_VAR(__Pyx_DecompressString);
     #endif
@@ -5501,32 +5501,32 @@ static int __Pyx_CreateCodeObjects(__pyx_mstatetype *__pyx_mstate) {
   {
     const __Pyx_PyCode_New_function_description descr = {1, 0, 0, 1, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 4};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self};
-    __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_my_nn_network_py, __pyx_mstate->__pyx_n_u_init, __pyx_mstate->__pyx_kp_b_iso88591_A_Ja_HA_N, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_network_py, __pyx_mstate->__pyx_n_u_init, __pyx_mstate->__pyx_kp_b_iso88591_A_Ja_HA_N, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 2, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 9};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_layer};
-    __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_my_nn_network_py, __pyx_mstate->__pyx_n_u_add, __pyx_mstate->__pyx_kp_b_iso88591_A_G7_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_network_py, __pyx_mstate->__pyx_n_u_add, __pyx_mstate->__pyx_kp_b_iso88591_A_G7_1, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 3, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 12};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_loss, __pyx_mstate->__pyx_n_u_loss_prime};
-    __pyx_mstate_global->__pyx_codeobj_tab[2] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_my_nn_network_py, __pyx_mstate->__pyx_n_u_use, __pyx_mstate->__pyx_kp_b_iso88591_A_HA_N, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[2])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[2] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_network_py, __pyx_mstate->__pyx_n_u_use, __pyx_mstate->__pyx_kp_b_iso88591_A_HA_N, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[2])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 16};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_input_data, __pyx_mstate->__pyx_n_u_samples, __pyx_mstate->__pyx_n_u_result, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_output, __pyx_mstate->__pyx_n_u_layer};
-    __pyx_mstate_global->__pyx_codeobj_tab[3] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_my_nn_network_py, __pyx_mstate->__pyx_n_u_predict, __pyx_mstate->__pyx_kp_b_iso88591_A_Qa_E_aq_Zq_1A_Q_haq_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[3])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[3] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_network_py, __pyx_mstate->__pyx_n_u_predict, __pyx_mstate->__pyx_kp_b_iso88591_A_Qa_E_aq_Zq_1A_Q_haq_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[3])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 29};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_input_data, __pyx_mstate->__pyx_n_u_output, __pyx_mstate->__pyx_n_u_layer};
-    __pyx_mstate_global->__pyx_codeobj_tab[4] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_my_nn_network_py, __pyx_mstate->__pyx_n_u_predict_batch, __pyx_mstate->__pyx_kp_b_iso88591_A_IT_U_1_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[4])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[4] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_network_py, __pyx_mstate->__pyx_n_u_predict_batch, __pyx_mstate->__pyx_kp_b_iso88591_A_IT_U_1_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[4])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {7, 0, 0, 24, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 35};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_x_train, __pyx_mstate->__pyx_n_u_y_train, __pyx_mstate->__pyx_n_u_epochs, __pyx_mstate->__pyx_n_u_learning_rate, __pyx_mstate->__pyx_n_u_batch_size, __pyx_mstate->__pyx_n_u_verbose, __pyx_mstate->__pyx_n_u_samples, __pyx_mstate->__pyx_n_u_tqdm, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_err, __pyx_mstate->__pyx_n_u_indices, __pyx_mstate->__pyx_n_u_x_shuffled, __pyx_mstate->__pyx_n_u_y_shuffled, __pyx_mstate->__pyx_n_u_batches_x, __pyx_mstate->__pyx_n_u_batches_y, __pyx_mstate->__pyx_n_u_iterator, __pyx_mstate->__pyx_n_u_batch_x, __pyx_mstate->__pyx_n_u_batch_y, __pyx_mstate->__pyx_n_u_output, __pyx_mstate->__pyx_n_u_layer, __pyx_mstate->__pyx_n_u_error_2, __pyx_mstate->__pyx_n_u_k, __pyx_mstate->__pyx_n_u_k};
-    __pyx_mstate_global->__pyx_codeobj_tab[5] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_my_nn_network_py, __pyx_mstate->__pyx_n_u_fit, __pyx_mstate->__pyx_kp_b_iso88591_LA_Qa_c_E_aq_b_1A_1Baq_D_U_3iq, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[5])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[5] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_network_py, __pyx_mstate->__pyx_n_u_fit, __pyx_mstate->__pyx_kp_b_iso88591_LA_Qa_c_E_aq_b_1A_1Baq_D_U_3iq, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[5])) goto bad;
   }
   Py_DECREF(tuple_dedup_map);
   return 0;

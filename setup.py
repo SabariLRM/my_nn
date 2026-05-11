@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages, Extension
 
 extensions = [
-    Extension("my_nn.layers", ["my_nn/layers.c"]),
-    Extension("my_nn.activations", ["my_nn/activations.c"]),
-    Extension("my_nn.losses", ["my_nn/losses.c"]),
-    Extension("my_nn.optimizers", ["my_nn/optimizers.c"]),
-    Extension("my_nn.network", ["my_nn/network.c"]),
+    Extension("nn_core.layers", ["nn_core/layers.c"]),
+    Extension("nn_core.activations", ["nn_core/activations.c"]),
+    Extension("nn_core.losses", ["nn_core/losses.c"]),
+    Extension("nn_core.optimizers", ["nn_core/optimizers.c"]),
+    Extension("nn_core.network", ["nn_core/network.c"]),
 ]
 
 setup_kwargs = dict(

@@ -7,8 +7,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 import numpy as np
 from sklearn.datasets import fetch_openml
 from sklearn.model_selection import train_test_split
-from my_nn import Sequential, Dense, ReLU, SoftmaxCrossEntropy
-from my_nn.activations import Softmax
+from nn_core import Sequential, Dense, ReLU, Softmax, SoftmaxCrossEntropy, SGD
 
 print("Loading MNIST dataset...")
 print("Loading MNIST dataset... (This might take a moment)")
