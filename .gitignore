@@ -1,5 +1,6 @@
 # Ignore the original source directory so it is never pushed to git or PyPI
 original_source_do_not_publish/
+core.py
 
 # Ignore python cache files
 __pycache__/
