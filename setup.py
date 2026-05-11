@@ -10,12 +10,12 @@ extensions = [
 
 setup_kwargs = dict(
     name="neural_scratch",
-    version="0.1.0",
-    description="A tiny neural network library built from scratch with NumPy.",
+    version="0.1.3",
+    description="A neural network library built from scratch with NumPy.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Sabari L R M",
+    author_email="camponotus76@gmail.com",
     packages=find_packages(),
     install_requires=[
         "numpy",
