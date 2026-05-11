@@ -1,0 +1,21 @@
+# Ignore the original source directory so it is never pushed to git or PyPI
+original_source_do_not_publish/
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Cython generated C files (optional, but good practice if distributing only .so)
+# We keep .so files so they ARE uploaded!
+*.c
