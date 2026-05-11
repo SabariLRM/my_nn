@@ -1,8 +1,8 @@
-# nn_core
+# neural_scratch
 
 A high-performance, educational neural network library built completely from scratch using NumPy. 
 
-`nn_core` provides a Keras-like object-oriented API for building and training neural networks. It is designed to be lightweight, avoiding heavy dependencies like TensorFlow or PyTorch, while leveraging highly-optimized C-Extensions (via Cython) for speed and strong protection against reverse engineering.
+`neural_scratch` provides a Keras-like object-oriented API for building and training neural networks. It is designed to be lightweight, avoiding heavy dependencies like TensorFlow or PyTorch, while leveraging highly-optimized C-Extensions (via Cython) for speed and strong protection against reverse engineering.
 
 ---
 
@@ -31,10 +31,10 @@ A high-performance, educational neural network library built completely from scr
 
 ## Installation
 
-You can install `nn_core` directly via `pip` once it is published to PyPI:
+You can install `neural_scratch` directly via `pip` once it is published to PyPI:
 
 ```bash
-pip install nn_core
+pip install neural_scratch
 ```
 
 *(Note: If building from source, ensure you have a C compiler installed, then run `pip install .` to compile the Cython extensions)*
@@ -47,8 +47,8 @@ Here is a simple example demonstrating how to build a model to solve the XOR pro
 
 ```python
 import numpy as np
-from nn_core import Sequential, Dense, ReLU, SoftmaxCrossEntropy
-from nn_core.activations import Softmax
+from neural_scratch import Sequential, Dense, ReLU, SoftmaxCrossEntropy
+from neural_scratch.activations import Softmax
 
 # 1. Create Data (XOR problem)
 X_train = np.array([[0,0], [0,1], [1,0], [1,1]])

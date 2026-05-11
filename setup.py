@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages, Extension
 
 extensions = [
-    Extension("nn_core.layers", ["nn_core/layers.c"]),
-    Extension("nn_core.activations", ["nn_core/activations.c"]),
-    Extension("nn_core.losses", ["nn_core/losses.c"]),
-    Extension("nn_core.optimizers", ["nn_core/optimizers.c"]),
-    Extension("nn_core.network", ["nn_core/network.c"]),
+    Extension("neural_scratch.layers", ["neural_scratch/layers.c"]),
+    Extension("neural_scratch.activations", ["neural_scratch/activations.c"]),
+    Extension("neural_scratch.losses", ["neural_scratch/losses.c"]),
+    Extension("neural_scratch.optimizers", ["neural_scratch/optimizers.c"]),
+    Extension("neural_scratch.network", ["neural_scratch/network.c"]),
 ]
 
 setup_kwargs = dict(
-    name="nn_core",
+    name="neural_scratch",
     version="0.1.0",
     description="A tiny neural network library built from scratch with NumPy.",
     long_description=open("README.md").read(),

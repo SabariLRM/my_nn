@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "nn_core.losses",
+        "name": "neural_scratch.losses",
         "sources": [
-            "/Users/user45/Documents/nnFromSratch/nn_core/losses.py"
+            "/Users/user45/Documents/nnFromSratch/neural_scratch/losses.py"
         ]
     },
-    "module_name": "nn_core.losses"
+    "module_name": "neural_scratch.losses"
 }
 END: Cython Metadata */
 
@@ -1126,8 +1126,8 @@ static int __Pyx_init_co_variables(void) {
   #endif
 #endif
 
-#define __PYX_HAVE__nn_core__losses
-#define __PYX_HAVE_API__nn_core__losses
+#define __PYX_HAVE__neural_scratch__losses
+#define __PYX_HAVE_API__neural_scratch__losses
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -1345,7 +1345,7 @@ static const char *__pyx_filename;
 /* #### Code section: filename_table ### */
 
 static const char* const __pyx_f[] = {
-  "nn_core/losses.py",
+  "neural_scratch/losses.py",
 };
 /* #### Code section: utility_code_proto_before_types ### */
 /* Atomics.proto (used by UnpackUnboundCMethod) */
@@ -2292,23 +2292,23 @@ static int __Pyx_State_RemoveModule(void*);
 #define __PYX_TYPE_MODULE_PREFIX __PYX_ABI_MODULE_NAME "."
 
 
-/* Module declarations from "nn_core.losses" */
+/* Module declarations from "neural_scratch.losses" */
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "nn_core.losses"
-extern int __pyx_module_is_main_nn_core__losses;
-int __pyx_module_is_main_nn_core__losses = 0;
+#define __Pyx_MODULE_NAME "neural_scratch.losses"
+extern int __pyx_module_is_main_neural_scratch__losses;
+int __pyx_module_is_main_neural_scratch__losses = 0;
 
-/* Implementation of "nn_core.losses" */
+/* Implementation of "neural_scratch.losses" */
 /* #### Code section: global_var ### */
 /* #### Code section: string_decls ### */
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_7nn_core_6losses_mse(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
-static PyObject *__pyx_pf_7nn_core_6losses_2mse_prime(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
-static PyObject *__pyx_pf_7nn_core_6losses_4categorical_crossentropy(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
-static PyObject *__pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
-static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy___call__(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
-static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy_2prime(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
+static PyObject *__pyx_pf_14neural_scratch_6losses_mse(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
+static PyObject *__pyx_pf_14neural_scratch_6losses_2mse_prime(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
+static PyObject *__pyx_pf_14neural_scratch_6losses_4categorical_crossentropy(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
+static PyObject *__pyx_pf_14neural_scratch_6losses_6categorical_crossentropy_prime(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
+static PyObject *__pyx_pf_14neural_scratch_6losses_19SoftmaxCrossEntropy___call__(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
+static PyObject *__pyx_pf_14neural_scratch_6losses_19SoftmaxCrossEntropy_2prime(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred); /* proto */
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 /* SmallCodeConfig */
@@ -2376,7 +2376,7 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #endif
 /* #### Code section: constant_name_defines ### */
 #define __pyx_kp_u_ __pyx_string_tab[0]
-#define __pyx_kp_u_nn_core_losses_py __pyx_string_tab[1]
+#define __pyx_kp_u_neural_scratch_losses_py __pyx_string_tab[1]
 #define __pyx_n_u_Pyx_PyDict_NextRef __pyx_string_tab[2]
 #define __pyx_n_u_SoftmaxCrossEntropy __pyx_string_tab[3]
 #define __pyx_n_u_SoftmaxCrossEntropy___call __pyx_string_tab[4]
@@ -2400,7 +2400,7 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_n_u_mse __pyx_string_tab[22]
 #define __pyx_n_u_mse_prime __pyx_string_tab[23]
 #define __pyx_n_u_name __pyx_string_tab[24]
-#define __pyx_n_u_nn_core_losses __pyx_string_tab[25]
+#define __pyx_n_u_neural_scratch_losses __pyx_string_tab[25]
 #define __pyx_n_u_np __pyx_string_tab[26]
 #define __pyx_n_u_numpy __pyx_string_tab[27]
 #define __pyx_n_u_pop __pyx_string_tab[28]
@@ -2482,7 +2482,7 @@ return 0;
 #endif
 /* #### Code section: module_code ### */
 
-/* "nn_core/losses.py":3
+/* "neural_scratch/losses.py":3
  * import numpy as np
  * 
  * def mse(y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -2491,15 +2491,15 @@ return 0;
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7nn_core_6losses_1mse(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14neural_scratch_6losses_1mse(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_7nn_core_6losses_1mse = {"mse", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_6losses_1mse, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_7nn_core_6losses_1mse(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_14neural_scratch_6losses_1mse = {"mse", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14neural_scratch_6losses_1mse, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14neural_scratch_6losses_1mse(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2569,11 +2569,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("nn_core.losses.mse", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.mse", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_7nn_core_6losses_mse(__pyx_self, __pyx_v_y_true, __pyx_v_y_pred);
+  __pyx_r = __pyx_pf_14neural_scratch_6losses_mse(__pyx_self, __pyx_v_y_true, __pyx_v_y_pred);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -2583,7 +2583,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7nn_core_6losses_mse(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
+static PyObject *__pyx_pf_14neural_scratch_6losses_mse(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2599,7 +2599,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_mse(CYTHON_UNUSED PyObject *__pyx_sel
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("mse", 0);
 
-  /* "nn_core/losses.py":4
+  /* "neural_scratch/losses.py":4
  * 
  * def mse(y_true, y_pred):
  *     return np.mean(np.power(y_true - y_pred, 2))             # <<<<<<<<<<<<<<
@@ -2667,7 +2667,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_mse(CYTHON_UNUSED PyObject *__pyx_sel
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "nn_core/losses.py":3
+  /* "neural_scratch/losses.py":3
  * import numpy as np
  * 
  * def mse(y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -2684,7 +2684,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_mse(CYTHON_UNUSED PyObject *__pyx_sel
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("nn_core.losses.mse", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.mse", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2692,7 +2692,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_mse(CYTHON_UNUSED PyObject *__pyx_sel
   return __pyx_r;
 }
 
-/* "nn_core/losses.py":6
+/* "neural_scratch/losses.py":6
  *     return np.mean(np.power(y_true - y_pred, 2))
  * 
  * def mse_prime(y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -2701,15 +2701,15 @@ static PyObject *__pyx_pf_7nn_core_6losses_mse(CYTHON_UNUSED PyObject *__pyx_sel
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7nn_core_6losses_3mse_prime(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14neural_scratch_6losses_3mse_prime(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_7nn_core_6losses_3mse_prime = {"mse_prime", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_6losses_3mse_prime, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_7nn_core_6losses_3mse_prime(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_14neural_scratch_6losses_3mse_prime = {"mse_prime", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14neural_scratch_6losses_3mse_prime, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14neural_scratch_6losses_3mse_prime(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2779,11 +2779,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("nn_core.losses.mse_prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.mse_prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_7nn_core_6losses_2mse_prime(__pyx_self, __pyx_v_y_true, __pyx_v_y_pred);
+  __pyx_r = __pyx_pf_14neural_scratch_6losses_2mse_prime(__pyx_self, __pyx_v_y_true, __pyx_v_y_pred);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -2793,7 +2793,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7nn_core_6losses_2mse_prime(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
+static PyObject *__pyx_pf_14neural_scratch_6losses_2mse_prime(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2804,7 +2804,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_2mse_prime(CYTHON_UNUSED PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("mse_prime", 0);
 
-  /* "nn_core/losses.py":7
+  /* "neural_scratch/losses.py":7
  * 
  * def mse_prime(y_true, y_pred):
  *     return 2 * (y_pred - y_true) / y_true.size             # <<<<<<<<<<<<<<
@@ -2827,7 +2827,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_2mse_prime(CYTHON_UNUSED PyObject *__
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nn_core/losses.py":6
+  /* "neural_scratch/losses.py":6
  *     return np.mean(np.power(y_true - y_pred, 2))
  * 
  * def mse_prime(y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -2840,7 +2840,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_2mse_prime(CYTHON_UNUSED PyObject *__
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("nn_core.losses.mse_prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.mse_prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2848,7 +2848,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_2mse_prime(CYTHON_UNUSED PyObject *__
   return __pyx_r;
 }
 
-/* "nn_core/losses.py":9
+/* "neural_scratch/losses.py":9
  *     return 2 * (y_pred - y_true) / y_true.size
  * 
  * def categorical_crossentropy(y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -2857,15 +2857,15 @@ static PyObject *__pyx_pf_7nn_core_6losses_2mse_prime(CYTHON_UNUSED PyObject *__
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7nn_core_6losses_5categorical_crossentropy(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14neural_scratch_6losses_5categorical_crossentropy(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_7nn_core_6losses_5categorical_crossentropy = {"categorical_crossentropy", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_6losses_5categorical_crossentropy, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_7nn_core_6losses_5categorical_crossentropy(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_14neural_scratch_6losses_5categorical_crossentropy = {"categorical_crossentropy", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14neural_scratch_6losses_5categorical_crossentropy, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14neural_scratch_6losses_5categorical_crossentropy(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2935,11 +2935,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("nn_core.losses.categorical_crossentropy", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.categorical_crossentropy", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_7nn_core_6losses_4categorical_crossentropy(__pyx_self, __pyx_v_y_true, __pyx_v_y_pred);
+  __pyx_r = __pyx_pf_14neural_scratch_6losses_4categorical_crossentropy(__pyx_self, __pyx_v_y_true, __pyx_v_y_pred);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -2949,7 +2949,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7nn_core_6losses_4categorical_crossentropy(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
+static PyObject *__pyx_pf_14neural_scratch_6losses_4categorical_crossentropy(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2969,7 +2969,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_4categorical_crossentropy(CYTHON_UNUS
   __Pyx_RefNannySetupContext("categorical_crossentropy", 0);
   __Pyx_INCREF(__pyx_v_y_pred);
 
-  /* "nn_core/losses.py":11
+  /* "neural_scratch/losses.py":11
  * def categorical_crossentropy(y_true, y_pred):
  *     # Add epsilon for numerical stability
  *     y_pred = np.clip(y_pred, 1e-15, 1 - 1e-15)             # <<<<<<<<<<<<<<
@@ -3008,7 +3008,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_4categorical_crossentropy(CYTHON_UNUS
   __Pyx_DECREF_SET(__pyx_v_y_pred, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "nn_core/losses.py":12
+  /* "neural_scratch/losses.py":12
  *     # Add epsilon for numerical stability
  *     y_pred = np.clip(y_pred, 1e-15, 1 - 1e-15)
  *     return -np.mean(np.sum(y_true * np.log(y_pred), axis=1))             # <<<<<<<<<<<<<<
@@ -3110,7 +3110,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_4categorical_crossentropy(CYTHON_UNUS
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "nn_core/losses.py":9
+  /* "neural_scratch/losses.py":9
  *     return 2 * (y_pred - y_true) / y_true.size
  * 
  * def categorical_crossentropy(y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -3130,7 +3130,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_4categorical_crossentropy(CYTHON_UNUS
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("nn_core.losses.categorical_crossentropy", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.categorical_crossentropy", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_y_pred);
@@ -3139,7 +3139,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_4categorical_crossentropy(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "nn_core/losses.py":14
+/* "neural_scratch/losses.py":14
  *     return -np.mean(np.sum(y_true * np.log(y_pred), axis=1))
  * 
  * def categorical_crossentropy_prime(y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -3148,15 +3148,15 @@ static PyObject *__pyx_pf_7nn_core_6losses_4categorical_crossentropy(CYTHON_UNUS
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7nn_core_6losses_7categorical_crossentropy_prime(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14neural_scratch_6losses_7categorical_crossentropy_prime(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_7nn_core_6losses_7categorical_crossentropy_prime = {"categorical_crossentropy_prime", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_6losses_7categorical_crossentropy_prime, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_7nn_core_6losses_7categorical_crossentropy_prime(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_14neural_scratch_6losses_7categorical_crossentropy_prime = {"categorical_crossentropy_prime", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14neural_scratch_6losses_7categorical_crossentropy_prime, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14neural_scratch_6losses_7categorical_crossentropy_prime(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3226,11 +3226,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("nn_core.losses.categorical_crossentropy_prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.categorical_crossentropy_prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(__pyx_self, __pyx_v_y_true, __pyx_v_y_pred);
+  __pyx_r = __pyx_pf_14neural_scratch_6losses_6categorical_crossentropy_prime(__pyx_self, __pyx_v_y_true, __pyx_v_y_pred);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -3240,7 +3240,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
+static PyObject *__pyx_pf_14neural_scratch_6losses_6categorical_crossentropy_prime(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3254,7 +3254,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(CYTHO
   __Pyx_RefNannySetupContext("categorical_crossentropy_prime", 0);
   __Pyx_INCREF(__pyx_v_y_pred);
 
-  /* "nn_core/losses.py":15
+  /* "neural_scratch/losses.py":15
  * 
  * def categorical_crossentropy_prime(y_true, y_pred):
  *     y_pred = np.clip(y_pred, 1e-15, 1 - 1e-15)             # <<<<<<<<<<<<<<
@@ -3293,7 +3293,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(CYTHO
   __Pyx_DECREF_SET(__pyx_v_y_pred, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "nn_core/losses.py":16
+  /* "neural_scratch/losses.py":16
  * def categorical_crossentropy_prime(y_true, y_pred):
  *     y_pred = np.clip(y_pred, 1e-15, 1 - 1e-15)
  *     return -(y_true / y_pred) / y_true.shape[0]             # <<<<<<<<<<<<<<
@@ -3319,7 +3319,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(CYTHO
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "nn_core/losses.py":14
+  /* "neural_scratch/losses.py":14
  *     return -np.mean(np.sum(y_true * np.log(y_pred), axis=1))
  * 
  * def categorical_crossentropy_prime(y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -3333,7 +3333,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(CYTHO
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("nn_core.losses.categorical_crossentropy_prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.categorical_crossentropy_prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_y_pred);
@@ -3342,7 +3342,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(CYTHO
   return __pyx_r;
 }
 
-/* "nn_core/losses.py":19
+/* "neural_scratch/losses.py":19
  * 
  * class SoftmaxCrossEntropy:
  *     def __call__(self, y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -3351,15 +3351,15 @@ static PyObject *__pyx_pf_7nn_core_6losses_6categorical_crossentropy_prime(CYTHO
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7nn_core_6losses_19SoftmaxCrossEntropy_1__call__(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14neural_scratch_6losses_19SoftmaxCrossEntropy_1__call__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_7nn_core_6losses_19SoftmaxCrossEntropy_1__call__ = {"__call__", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_6losses_19SoftmaxCrossEntropy_1__call__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_7nn_core_6losses_19SoftmaxCrossEntropy_1__call__(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_14neural_scratch_6losses_19SoftmaxCrossEntropy_1__call__ = {"__call__", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14neural_scratch_6losses_19SoftmaxCrossEntropy_1__call__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14neural_scratch_6losses_19SoftmaxCrossEntropy_1__call__(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3437,11 +3437,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("nn_core.losses.SoftmaxCrossEntropy.__call__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.SoftmaxCrossEntropy.__call__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy___call__(__pyx_self, __pyx_v_self, __pyx_v_y_true, __pyx_v_y_pred);
+  __pyx_r = __pyx_pf_14neural_scratch_6losses_19SoftmaxCrossEntropy___call__(__pyx_self, __pyx_v_self, __pyx_v_y_true, __pyx_v_y_pred);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -3451,7 +3451,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy___call__(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
+static PyObject *__pyx_pf_14neural_scratch_6losses_19SoftmaxCrossEntropy___call__(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3463,7 +3463,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy___call__(CYTHON
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__call__", 0);
 
-  /* "nn_core/losses.py":20
+  /* "neural_scratch/losses.py":20
  * class SoftmaxCrossEntropy:
  *     def __call__(self, y_true, y_pred):
  *         return categorical_crossentropy(y_true, y_pred)             # <<<<<<<<<<<<<<
@@ -3498,7 +3498,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy___call__(CYTHON
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "nn_core/losses.py":19
+  /* "neural_scratch/losses.py":19
  * 
  * class SoftmaxCrossEntropy:
  *     def __call__(self, y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -3511,7 +3511,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy___call__(CYTHON
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("nn_core.losses.SoftmaxCrossEntropy.__call__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.SoftmaxCrossEntropy.__call__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3519,7 +3519,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy___call__(CYTHON
   return __pyx_r;
 }
 
-/* "nn_core/losses.py":22
+/* "neural_scratch/losses.py":22
  *         return categorical_crossentropy(y_true, y_pred)
  * 
  *     def prime(self, y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -3527,15 +3527,15 @@ static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy___call__(CYTHON
 */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7nn_core_6losses_19SoftmaxCrossEntropy_3prime(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_14neural_scratch_6losses_19SoftmaxCrossEntropy_3prime(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_7nn_core_6losses_19SoftmaxCrossEntropy_3prime = {"prime", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7nn_core_6losses_19SoftmaxCrossEntropy_3prime, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_7nn_core_6losses_19SoftmaxCrossEntropy_3prime(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_14neural_scratch_6losses_19SoftmaxCrossEntropy_3prime = {"prime", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_14neural_scratch_6losses_19SoftmaxCrossEntropy_3prime, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14neural_scratch_6losses_19SoftmaxCrossEntropy_3prime(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3613,11 +3613,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
     Py_XDECREF(values[__pyx_temp]);
   }
-  __Pyx_AddTraceback("nn_core.losses.SoftmaxCrossEntropy.prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.SoftmaxCrossEntropy.prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy_2prime(__pyx_self, __pyx_v_self, __pyx_v_y_true, __pyx_v_y_pred);
+  __pyx_r = __pyx_pf_14neural_scratch_6losses_19SoftmaxCrossEntropy_2prime(__pyx_self, __pyx_v_self, __pyx_v_y_true, __pyx_v_y_pred);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -3627,7 +3627,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy_2prime(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
+static PyObject *__pyx_pf_14neural_scratch_6losses_19SoftmaxCrossEntropy_2prime(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, PyObject *__pyx_v_y_true, PyObject *__pyx_v_y_pred) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3638,7 +3638,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy_2prime(CYTHON_U
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("prime", 0);
 
-  /* "nn_core/losses.py":23
+  /* "neural_scratch/losses.py":23
  * 
  *     def prime(self, y_true, y_pred):
  *         return (y_pred - y_true) / y_true.shape[0]             # <<<<<<<<<<<<<<
@@ -3659,7 +3659,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy_2prime(CYTHON_U
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "nn_core/losses.py":22
+  /* "neural_scratch/losses.py":22
  *         return categorical_crossentropy(y_true, y_pred)
  * 
  *     def prime(self, y_true, y_pred):             # <<<<<<<<<<<<<<
@@ -3671,7 +3671,7 @@ static PyObject *__pyx_pf_7nn_core_6losses_19SoftmaxCrossEntropy_2prime(CYTHON_U
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("nn_core.losses.SoftmaxCrossEntropy.prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("neural_scratch.losses.SoftmaxCrossEntropy.prime", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4004,13 +4004,13 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   if (__Pyx_InitConstants(__pyx_mstate) < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
   stringtab_initialized = 1;
   if (__Pyx_InitGlobals() < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
-  if (__pyx_module_is_main_nn_core__losses) {
+  if (__pyx_module_is_main_neural_scratch__losses) {
     if (PyObject_SetAttr(__pyx_m, __pyx_mstate_global->__pyx_n_u_name, __pyx_mstate_global->__pyx_n_u_main) < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "nn_core.losses")) {
-      if (unlikely((PyDict_SetItemString(modules, "nn_core.losses", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "neural_scratch.losses")) {
+      if (unlikely((PyDict_SetItemString(modules, "neural_scratch.losses", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   /*--- Builtin init code ---*/
@@ -4028,7 +4028,7 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   (void)__Pyx_modinit_function_import_code(__pyx_mstate);
   /*--- Execution code ---*/
 
-  /* "nn_core/losses.py":1
+  /* "neural_scratch/losses.py":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * 
  * def mse(y_true, y_pred):
@@ -4039,14 +4039,14 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_np, __pyx_t_2) < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nn_core/losses.py":3
+  /* "neural_scratch/losses.py":3
  * import numpy as np
  * 
  * def mse(y_true, y_pred):             # <<<<<<<<<<<<<<
  *     return np.mean(np.power(y_true - y_pred, 2))
  * 
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_6losses_1mse, 0, __pyx_mstate_global->__pyx_n_u_mse, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_14neural_scratch_6losses_1mse, 0, __pyx_mstate_global->__pyx_n_u_mse, NULL, __pyx_mstate_global->__pyx_n_u_neural_scratch_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[0])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_2);
@@ -4054,14 +4054,14 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_mse, __pyx_t_2) < (0)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nn_core/losses.py":6
+  /* "neural_scratch/losses.py":6
  *     return np.mean(np.power(y_true - y_pred, 2))
  * 
  * def mse_prime(y_true, y_pred):             # <<<<<<<<<<<<<<
  *     return 2 * (y_pred - y_true) / y_true.size
  * 
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_6losses_3mse_prime, 0, __pyx_mstate_global->__pyx_n_u_mse_prime, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_14neural_scratch_6losses_3mse_prime, 0, __pyx_mstate_global->__pyx_n_u_mse_prime, NULL, __pyx_mstate_global->__pyx_n_u_neural_scratch_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_2);
@@ -4069,14 +4069,14 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_mse_prime, __pyx_t_2) < (0)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nn_core/losses.py":9
+  /* "neural_scratch/losses.py":9
  *     return 2 * (y_pred - y_true) / y_true.size
  * 
  * def categorical_crossentropy(y_true, y_pred):             # <<<<<<<<<<<<<<
  *     # Add epsilon for numerical stability
  *     y_pred = np.clip(y_pred, 1e-15, 1 - 1e-15)
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_6losses_5categorical_crossentropy, 0, __pyx_mstate_global->__pyx_n_u_categorical_crossentropy, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_14neural_scratch_6losses_5categorical_crossentropy, 0, __pyx_mstate_global->__pyx_n_u_categorical_crossentropy, NULL, __pyx_mstate_global->__pyx_n_u_neural_scratch_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_2);
@@ -4084,14 +4084,14 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_categorical_crossentropy, __pyx_t_2) < (0)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nn_core/losses.py":14
+  /* "neural_scratch/losses.py":14
  *     return -np.mean(np.sum(y_true * np.log(y_pred), axis=1))
  * 
  * def categorical_crossentropy_prime(y_true, y_pred):             # <<<<<<<<<<<<<<
  *     y_pred = np.clip(y_pred, 1e-15, 1 - 1e-15)
  *     return -(y_true / y_pred) / y_true.shape[0]
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_6losses_7categorical_crossentropy_prime, 0, __pyx_mstate_global->__pyx_n_u_categorical_crossentropy_prime, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_14neural_scratch_6losses_7categorical_crossentropy_prime, 0, __pyx_mstate_global->__pyx_n_u_categorical_crossentropy_prime, NULL, __pyx_mstate_global->__pyx_n_u_neural_scratch_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_2);
@@ -4099,24 +4099,24 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_categorical_crossentropy_prime, __pyx_t_2) < (0)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nn_core/losses.py":18
+  /* "neural_scratch/losses.py":18
  *     return -(y_true / y_pred) / y_true.shape[0]
  * 
  * class SoftmaxCrossEntropy:             # <<<<<<<<<<<<<<
  *     def __call__(self, y_true, y_pred):
  *         return categorical_crossentropy(y_true, y_pred)
 */
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_u_SoftmaxCrossEntropy, __pyx_mstate_global->__pyx_n_u_SoftmaxCrossEntropy, (PyObject *) NULL, __pyx_mstate_global->__pyx_n_u_nn_core_losses, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 18, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_u_SoftmaxCrossEntropy, __pyx_mstate_global->__pyx_n_u_SoftmaxCrossEntropy, (PyObject *) NULL, __pyx_mstate_global->__pyx_n_u_neural_scratch_losses, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "nn_core/losses.py":19
+  /* "neural_scratch/losses.py":19
  * 
  * class SoftmaxCrossEntropy:
  *     def __call__(self, y_true, y_pred):             # <<<<<<<<<<<<<<
  *         return categorical_crossentropy(y_true, y_pred)
  * 
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_6losses_19SoftmaxCrossEntropy_1__call__, 0, __pyx_mstate_global->__pyx_n_u_SoftmaxCrossEntropy___call, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_14neural_scratch_6losses_19SoftmaxCrossEntropy_1__call__, 0, __pyx_mstate_global->__pyx_n_u_SoftmaxCrossEntropy___call, NULL, __pyx_mstate_global->__pyx_n_u_neural_scratch_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_3);
@@ -4124,13 +4124,13 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_call, __pyx_t_3) < (0)) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "nn_core/losses.py":22
+  /* "neural_scratch/losses.py":22
  *         return categorical_crossentropy(y_true, y_pred)
  * 
  *     def prime(self, y_true, y_pred):             # <<<<<<<<<<<<<<
  *         return (y_pred - y_true) / y_true.shape[0]
 */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7nn_core_6losses_19SoftmaxCrossEntropy_3prime, 0, __pyx_mstate_global->__pyx_n_u_SoftmaxCrossEntropy_prime, NULL, __pyx_mstate_global->__pyx_n_u_nn_core_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 22, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_14neural_scratch_6losses_19SoftmaxCrossEntropy_3prime, 0, __pyx_mstate_global->__pyx_n_u_SoftmaxCrossEntropy_prime, NULL, __pyx_mstate_global->__pyx_n_u_neural_scratch_losses, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 22, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_3);
@@ -4138,7 +4138,7 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_prime, __pyx_t_3) < (0)) __PYX_ERR(0, 22, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "nn_core/losses.py":18
+  /* "neural_scratch/losses.py":18
  *     return -(y_true / y_pred) / y_true.shape[0]
  * 
  * class SoftmaxCrossEntropy:             # <<<<<<<<<<<<<<
@@ -4154,7 +4154,7 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nn_core/losses.py":1
+  /* "neural_scratch/losses.py":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * 
  * def mse(y_true, y_pred):
@@ -4172,7 +4172,7 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
   __Pyx_XDECREF(__pyx_t_3);
   if (__pyx_m) {
     if (__pyx_mstate->__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init nn_core.losses", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init neural_scratch.losses", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -4186,7 +4186,7 @@ __Pyx_RefNannySetupContext("PyInit_losses", 0);
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init nn_core.losses");
+    PyErr_SetString(PyExc_ImportError, "init neural_scratch.losses");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -4225,33 +4225,33 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
 static int __Pyx_InitConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   {
-    const struct { const unsigned int length: 6; } index[] = {{1},{17},{20},{19},{28},{25},{18},{4},{8},{24},{30},{18},{4},{7},{8},{13},{5},{3},{8},{4},{13},{10},{3},{9},{8},{14},{2},{5},{3},{5},{11},{5},{12},{4},{12},{10},{5},{4},{3},{8},{6},{6},{6},{21},{25},{14},{21},{54},{42}};
-    #if (CYTHON_COMPRESS_STRINGS) == 3 && __PYX_LIMITED_VERSION_HEX >= 0x030e0000 /* compression: zstd (402 bytes) */
-const char* const cstring = "(\265/\375`]\001E\014\000F\030P+`w\016\344l\213\030\215\030H\020\0300X\220\367 R\251\245\310\0164\275iR\246\312\226\237\364\236a\316^\030\216l\365O\3777\027A\000<\000A\000\371\242~O\252\253k\352\267u\1777_\n\271\225ZP\317\367j\306\356]7\251;\004\3047o\313\321\372f\215kz\233\273\"\356C\333\365\036\337\264n\\\340\307\035\304\020\375Z\337.\362\371R\267\366\022\336g\261\205L\353\376\332{\355\271\177\367m\327sw\327zvt\356\371\236\273\255\323sG\335N{\277\253\353\352\356\324~\234\273;\275\233;V\321yz:\363v[\375m\355\250?\365\032\n\2221fq \212\302IX\010\320\000\260\377\362vp\373\214\035\324\377u\223\345\276\365ow\357\323\377\252\372\361L\351\335}\223\373m\373~\355\316u\257\273\371\255\374\363\304\237\261{\376\326\305\370b\020\007\240\022Sr\244\200<\215\251R8\221qb\226\262Qn\016\26226\306M\314\210\022\361\303L()Od\206,\215&\021#~a(4\004j\200U\271@\000b\204rE>\016\263\003\201\206\201\201J\0239!;\243d$\211\023\261!\216\022%\205\014\034 0J \014/\006u`2\017\352[\336\207U\362\025\016\334\326\3041\370\200\0203\223\316\031$\\d\334!5\031\300Kb\377\214\361Z\370\305U\203\275\274d\r\000x?\013G\000_'\306C\313MI\016(b";
-    PyObject *data = __Pyx_DecompressString(cstring, 402, 3);
+    const struct { const unsigned int length: 6; } index[] = {{1},{24},{20},{19},{28},{25},{18},{4},{8},{24},{30},{18},{4},{7},{8},{13},{5},{3},{8},{4},{13},{10},{3},{9},{8},{21},{2},{5},{3},{5},{11},{5},{12},{4},{12},{10},{5},{4},{3},{8},{6},{6},{6},{21},{25},{14},{21},{54},{42}};
+    #if (CYTHON_COMPRESS_STRINGS) == 3 && __PYX_LIMITED_VERSION_HEX >= 0x030e0000 /* compression: zstd (407 bytes) */
+const char* const cstring = "(\265/\375`k\001m\014\000\266\030Q2PO\232\003\320\030\231i\314\301\335Z\334N\331s*\346\237M\242!\"\"\317\242&m\355S\t\010\207\320\031\342\352!(/ju><\027\324\010n[\002A\0008\000?\000\213u\373\254f\330h\21532Ll\014J\275\370\265)\177\347\026\3731\222\214\223\302\212\3568'>\353\321(nD\254A?|q\312\032\305G\302\370%\211i\356\216\316\301\303\350\232\254\357\326\254\014%\002\022b\026\374\271\037\367\373\331U(\276\377\357^\216-\272\370\375\260\255\367\203D\327\217i{\267\377\014\326\350\377Y\204~\031\302V\207\331\232\364\260\235as\354\314\336f\004a\032w\201\232V\300nL\232\211\000@\305b\302u\322K\020Oy\251\271\2725\362\323f\372\277\332\\\322\232\345\3624uuE\014\321S\356?r\334nU\221\363\\\222\247\374'\223D)\243\224\344\2530\031\325\246\212n\300\355P\036\217I\203Rq\022Q]*\210\341BP\027\n\262\034\233\261<q\246L\325\271\234\353A}\330\215\255\223\306T\000\260b\021\251\024\016,'\003\225\310m0H1\030P\331\230dT\037Ws-\250\014\325a5\366b9\020\252\207\233\020\034 0J \354<\006u`r\017\352[\336\207U\352\025\n\334\326\3041\370\200\0213\223>h\220\376\220\001\006\341\311\001^\022kg\214\327\302-\256\022\354\345\222M\000\307\373[8\000\370:1\036ZnJ\262\200\222\007";
+    PyObject *data = __Pyx_DecompressString(cstring, 407, 3);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (460 bytes) */
-const char* const cstring = "BZh91AY&SY\257\250\307\254\000\000\036\377\373e\312\361@0\201\261\240\276\201{\300\277\357\377\360@@@@@@@@@@@\0000\001\211!\003S$\014\224\330j\r@\323A\2404\000\r\250\017H\323\3152\240\320\232\t\352M'\224\306\223\312h\000\000\000\001\240\321\210\007\0312i\246\023# `F&\214\021\204\0324\300\000\234\302\341w\350\"\016\001\345{A\210V\020\371\202_\0307\211\010\323\206\3734\236\263z\224hI\023\246\350P\225\0108@\277I\230\2575\362a\235\204W\033\204\347\020\202w\210\316\200K\"\014t\036\362.W\373\345\027\3139\225G\232\354J\001\230:\006\t\347A\270\320\310A\022l\221*`\033z\220\273h\300\230\304\352D\360c\3047%\2700a+`!#`ED#\304j\213jZ\203(\006H\301A\206\024\037\215\300#\214\031\010\\pd8_\266\225\226\264\346\246rb40\322%z\221\220\300\262\266\244V\233\n\314\367\210\204\320z\007\023\374m\202\234\230\255S0\344\007S\331\306\257\302\021n\0341);\332\217\222al1[\230\256?\001\013\343p\030B\n\014,\246\252\252_e@`4$1u\326\356\266\030\t\346\010\014\007\020\372*B\207b\021\254\nBQA\250\010 \252q)\314\004$\323i)(\232k\006\331%\342\007\203\370\353\262i\343+\2430Y\304\215\222\233\030\270\202\312R2M\020\326<\272\313\324\013+\032\221oH\317\360\335\215YB\334\266\211E\203xT\345\251\343\323O\360\275\366\212\003i\241\027^\261\241\301\224\364dc\243\265\365\333\235\002@_\342\356H\247\n\022\025\365\030\365\200";
-    PyObject *data = __Pyx_DecompressString(cstring, 460, 2);
+    #elif (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (476 bytes) */
+const char* const cstring = "BZh91AY&SY\255y\360\376\000\000\036\377\373e\312\361@0\201\261\240\276\201{\300\277\357\377\360@@@@@@@@@@@\0000\001\213l\306\004\251\244\247\251\346E=4\312z h\r\000\000\003\324\006M\036h\325\006\243Bd\364\244\332\236\324OSd&# `\214\215\031\0312d\014A\246\223J6I\351O(\321\243\324\364\200\0002\003\020\001\243 9\013Kt\010\205\340\364\271\302\310Z)\363\020>!o#E\301M\331\275\327\372\267\261\213Q9\n\217\305`\245\021(D\216\0103EC\252\203\037\246\032\277\205\007\245\240\203\330\032\362\001\331Ty\310\360\253f\177\276a\225>\212Ts\321m#\020\257!\030\310\270\251`@\203\226\032\"d\306\220\203\256b\244\330\237R\010\310\314\rV\010j\3256e\264\240\245,\244\205c\035\0169B\021\270\215\263\322\204\202\tE7\220\202W\267\373\2205\240\222\031\300\22713\215\n4\304>\227jY\023\004_\201(@\035IF\324\201<\317\200q\\Y\233\030\032\001H\302\nC4Q\022\322\350\245lHr\203S\342\342\317.\234\276\306Gz\334\370H\n\355Y^t\270\373\2507\305\320\250\030\020\323B\233)~\265@i\225E\"\207W\301\033\332\202\221)\304A\001\350>Q\341\203\254\023^\002\240\262\024\022\300(\264\314m\244\344\005E\327\214\314\030\022!\t\r\344ZT%OLZ\354\222(\344&7\t\027\022\265\222\032\213PjH\213H'\206\263\307\251=\0035fuY\320e\370t\271\362\r\275\256$3\033f;\332\307\236~\277\305\317\260\234v\031\325m\3159\357(\303\315\212\213\342\261\365\331\225Db\177\213\271\"\234(HV\274\370\177\000";
+    PyObject *data = __Pyx_DecompressString(cstring, 476, 2);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (393 bytes) */
-const char* const cstring = "x\332u\220=o\0241\020\206uR\004\221\"\024\240@i\217\206\356\320]\021D\205\356 J\207\362!H\272\221\317;\233Xxm\237?\310m\252\224[\272\334\322\245\313\224\374\014\312\224\371)\231\335\325!\212\213%\317h^\3173\257\355/J\001\327\026?J\355\034\272\211\251\001N\3525\355o\202{\370\216k\177\206\345\271.}\305\326_-5\035)o\265\251\267H\023\000\316\244\004\330vf\254\250\220\271Zq\241'\344\250\203\027\n\035[\013\267\3018\363x\245\255\240\nx\307\342\300>\247C?\223K\232\003B\201\267\214\343\222\361_\244\030\200Bs\240U\006\325er\371g*<VN\352+\200\212\021\007t\257>z\306%s\256\243*]\004\211\224\035\265\342`\004\240X\037\207\037\233\014?\246\214\n\225\251\2156F\337\240\005\352E\303,\302\006Z\005&\007\320\241,\273\350aS\373\002K\026\244w\327\314\240\023\267\350B\005\340\321y\200\337L\006t\335#\261\250\351q\001\357F\017;{\315\2549\217/\243m\017\322\333t\230\337l\304\037q\034g\361g;m\217\323,]\346\323\273\371\303\356\376\337\375\017i\225w\357G]\365\372?\356]^\2218z\334y\325\2345!\316\343e{\221\026i\231\373q\323f\321`\234\306E,\332q\373)\275\247\243\"\217\363\347\373\243?\275\343Vj\326\\\020q\335.\323\213T\346y>}\002\3500\364\212";
-    PyObject *data = __Pyx_DecompressString(cstring, 393, 1);
+    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (398 bytes) */
+const char* const cstring = "x\332u\220=o\0331\014\206a H\003\004A\332\016EWw\311\346\302\036Zt*\354&\310V\344\003M\262\021\264\216\027\013\325I\262>\032_\246\2147j\274Q\243\306\214\375\031\0313\366\247Tw\206\213\026p\005\210\004_\362!E}\226\344\r\n\260\314\240c\213\367BYKv\244k\200\263z\225\3571g\016\276\322\312]Py\251JW\341\352\213\311E'\322\031\245\353-\322\010\200\241\020\000\333r\332\360\212\320\326\222q5b\312(\357\270$\213+n7\030CG\267\312\360\034\001\353XZ\263\377\323\241\357\311D\356\003\\\2023\310h\216\354{V4@\241\030\344Sz\331\371<\345\317P\356\250\262B\335\002T\2309\310\357\352\255C&\320\332\216\252T\341\005eos)\255\007\001H\354\355?\0377Z\177\234\324\322W\272\326JkuG\0062B\032\r\301\206]z\024k\336\222(;\353`\023\273\202J\364\302\331\005j\262\374\236\254\257\000\034Y\007\360\003\205'\333\355JE\235w\364\3640x\336\331o&\315ex\021L\3736\276\216\037\322\253\215\370-\014\303$\\\265\343\3664N\342M:\177\230>\357\035>\035\036\305e\332{\034t\321\313\277\2707i\231\305\301\257\235\203\346\242\361a\032n\332\3538\213\363\324\267\0337\263\206\3028\314B\321\016\333\217\361]N\025i\230>=\236\374\354'n\245&\315u&\026\355<\356\3062M\323\371o\303Q\372^";
+    PyObject *data = __Pyx_DecompressString(cstring, 398, 1);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #else /* compression: none (605 bytes) */
-const char* const bytes = "?nn_core/losses.py__Pyx_PyDict_NextRefSoftmaxCrossEntropySoftmaxCrossEntropy.__call__SoftmaxCrossEntropy.primeasyncio.coroutinesaxis__call__categorical_crossentropycategorical_crossentropy_primecline_in_tracebackclip__doc____func___is_coroutineitemslog__main__mean__metaclass____module__msemse_prime__name__nn_core.lossesnpnumpypoppower__prepare__prime__qualname__self__set_name__setdefaultshapesizesum__test__valuesy_predy_true\200\001\330\004\013\2102\210S\220\007\220r\230\030\240\022\2406\250\021\200\001\330\004\013\2102\210U\220!\2202\220V\2301\230G\2402\240X\250Q\200A\330\010\017\320\017'\240q\250\010\260\001\200A\330\010\020\220\007\220r\230\030\240\022\2406\250\026\250q\260\001\200\001\340\004\r\210R\210u\220A\220X\230W\240B\240b\250\001\330\004\013\2101\210B\210e\2201\220B\220d\230!\2307\240\"\240B\240d\250!\2509\260E\270\021\200\001\330\004\r\210R\210u\220A\220X\230W\240B\240b\250\001\330\004\013\2102\210W\220B\220h\230b\240\006\240f\250A\250Q";
+    #else /* compression: none (619 bytes) */
+const char* const bytes = "?neural_scratch/losses.py__Pyx_PyDict_NextRefSoftmaxCrossEntropySoftmaxCrossEntropy.__call__SoftmaxCrossEntropy.primeasyncio.coroutinesaxis__call__categorical_crossentropycategorical_crossentropy_primecline_in_tracebackclip__doc____func___is_coroutineitemslog__main__mean__metaclass____module__msemse_prime__name__neural_scratch.lossesnpnumpypoppower__prepare__prime__qualname__self__set_name__setdefaultshapesizesum__test__valuesy_predy_true\200\001\330\004\013\2102\210S\220\007\220r\230\030\240\022\2406\250\021\200\001\330\004\013\2102\210U\220!\2202\220V\2301\230G\2402\240X\250Q\200A\330\010\017\320\017'\240q\250\010\260\001\200A\330\010\020\220\007\220r\230\030\240\022\2406\250\026\250q\260\001\200\001\340\004\r\210R\210u\220A\220X\230W\240B\240b\250\001\330\004\013\2101\210B\210e\2201\220B\220d\230!\2307\240\"\240B\240d\250!\2509\260E\270\021\200\001\330\004\r\210R\210u\220A\220X\230W\240B\240b\250\001\330\004\013\2102\210W\220B\220h\230b\240\006\240f\250A\250Q";
     PyObject *data = NULL;
     CYTHON_UNUSED_VAR(__Pyx_DecompressString);
     #endif
@@ -4369,32 +4369,32 @@ static int __Pyx_CreateCodeObjects(__pyx_mstatetype *__pyx_mstate) {
   {
     const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 2, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 3};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_y_true, __pyx_mstate->__pyx_n_u_y_pred};
-    __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_losses_py, __pyx_mstate->__pyx_n_u_mse, __pyx_mstate->__pyx_kp_b_iso88591_2U_2V1G2XQ, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_neural_scratch_losses_py, __pyx_mstate->__pyx_n_u_mse, __pyx_mstate->__pyx_kp_b_iso88591_2U_2V1G2XQ, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 2, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 6};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_y_true, __pyx_mstate->__pyx_n_u_y_pred};
-    __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_losses_py, __pyx_mstate->__pyx_n_u_mse_prime, __pyx_mstate->__pyx_kp_b_iso88591_2S_r_6, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_neural_scratch_losses_py, __pyx_mstate->__pyx_n_u_mse_prime, __pyx_mstate->__pyx_kp_b_iso88591_2S_r_6, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 2, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 9};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_y_true, __pyx_mstate->__pyx_n_u_y_pred};
-    __pyx_mstate_global->__pyx_codeobj_tab[2] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_losses_py, __pyx_mstate->__pyx_n_u_categorical_crossentropy, __pyx_mstate->__pyx_kp_b_iso88591_RuAXWBb_1Be1Bd_7_Bd_9E, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[2])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[2] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_neural_scratch_losses_py, __pyx_mstate->__pyx_n_u_categorical_crossentropy, __pyx_mstate->__pyx_kp_b_iso88591_RuAXWBb_1Be1Bd_7_Bd_9E, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[2])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 2, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 14};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_y_true, __pyx_mstate->__pyx_n_u_y_pred};
-    __pyx_mstate_global->__pyx_codeobj_tab[3] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_losses_py, __pyx_mstate->__pyx_n_u_categorical_crossentropy_prime, __pyx_mstate->__pyx_kp_b_iso88591_RuAXWBb_2WBhb_fAQ, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[3])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[3] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_neural_scratch_losses_py, __pyx_mstate->__pyx_n_u_categorical_crossentropy_prime, __pyx_mstate->__pyx_kp_b_iso88591_RuAXWBb_2WBhb_fAQ, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[3])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 3, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 19};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_y_true, __pyx_mstate->__pyx_n_u_y_pred};
-    __pyx_mstate_global->__pyx_codeobj_tab[4] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_losses_py, __pyx_mstate->__pyx_n_u_call, __pyx_mstate->__pyx_kp_b_iso88591_A_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[4])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[4] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_neural_scratch_losses_py, __pyx_mstate->__pyx_n_u_call, __pyx_mstate->__pyx_kp_b_iso88591_A_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[4])) goto bad;
   }
   {
     const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 3, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 22};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_y_true, __pyx_mstate->__pyx_n_u_y_pred};
-    __pyx_mstate_global->__pyx_codeobj_tab[5] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_nn_core_losses_py, __pyx_mstate->__pyx_n_u_prime, __pyx_mstate->__pyx_kp_b_iso88591_A_r_6_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[5])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[5] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_neural_scratch_losses_py, __pyx_mstate->__pyx_n_u_prime, __pyx_mstate->__pyx_kp_b_iso88591_A_r_6_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[5])) goto bad;
   }
   Py_DECREF(tuple_dedup_map);
   return 0;
